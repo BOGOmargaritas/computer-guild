@@ -7,17 +7,28 @@ import Layout from "../layouts/layout.astro"
 		
 		<p/>
 		
+		<audio id="eh">
+		  <source src="/eh.WAV" type="audio/wav">
+			no sound 4 u
+		</audio>
+		
 		<img src="/logov2.png" style="position: absolute; bottom: 30px; right: 30px; width: 400px">
+		
+		<nav style="position: absolute; right: 380px; bottom: 33px;">
+			<a href="/members/" class="members">members</a>
+			<a href="/about/" class="about">about</a> 
+			<a href="/error/" class="gameclub">game club</a>
+		</nav>	
 		
 		<div style="position: absolute; bottom: 180px; right: 130px;">
 			<img src="/hourglass.png" style=" width: 60px" class="rotating">
 		</div>
 		
-		<a href="https://fruitfly.supply" target="blank">
+		<a id="globe" href="https://fruitfly.supply" target="blank">
 			<img src="/wire.gif" style="position: absolute; top: 20px; left: 20px; width: 60px">
 		</a>
 		
-		<a href="https://numericproductions.com" target="blank">
+		<a class="vhs" href="https://numericproductions.com" target="blank">
 			<img src="/vhs.gif" style="position: absolute; top: 90px; left: 10px; width: 80px">
 		</a>
 		
@@ -44,6 +55,7 @@ import Layout from "../layouts/layout.astro"
 </style>
 
 <script is:inline>
+	
 	// start particle simulation
 	simulate(
 			'2d', {
@@ -844,4 +856,13 @@ import Layout from "../layouts/layout.astro"
 			}
 	
 	};
+	
+	
+	
+	var audio = document.querySelector("#eh")[0];
+	document.querySelector("#globe").mouseenter(function() {
+	  audio.play();
+	});
+	
+	
 </script>

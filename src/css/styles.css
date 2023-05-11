@@ -6,6 +6,44 @@ body {
   margin:0px;
 }
 
+nav {
+  font-family: "VT323", sans-serif;
+  font-size: 22px;
+  position: absolute;
+  right: 380px;
+  bottom: 33px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  underline: none;
+}
+
+.members {
+  position: absolute; 
+  right: 200px;
+}
+
+.members:hover {
+  color: #33FF44;
+}
+
+.about {
+  position: absolute; 
+  right: 115px;
+}
+
+.about:hover {
+  color: #EEFF33;
+}
+
+.gameclub {
+}
+
+.gameclub:hover {
+  color: #FF3333;
+}
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
