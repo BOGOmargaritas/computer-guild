@@ -9,9 +9,7 @@ body {
 nav {
   font-family: "VT323", sans-serif;
   font-size: 22px;
-  position: absolute;
-  right: 380px;
-  bottom: 33px;
+
 }
 
 nav a {
