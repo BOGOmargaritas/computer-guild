@@ -49,6 +49,11 @@ nav a {
   color: #FF3333;
 }
 
+.errormsg:hover {
+  color: white;
+  background-color: red;
+}
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
     -webkit-transform: rotate(0deg);
