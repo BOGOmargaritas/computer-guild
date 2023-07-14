@@ -54,6 +54,13 @@ nav a {
   background-color: red;
 }
 
+.member {
+  display: block;
+  padding-top: 380px;
+  padding-left: 30px;
+  height: 10%;
+}
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
     -webkit-transform: rotate(0deg);
