@@ -19,6 +19,16 @@ nav a {
   underline: none;
 }
 
+h2 {
+  font-family: "VT323", sans-serif;
+  font-size: 18px;
+  line-height: 15px;
+}
+
+li {
+  margin-bottom: -10px;
+}
+
 .logo {
   transition: all .4s ease-in-out;
   }
@@ -61,10 +71,6 @@ nav a {
   height: 10%;
 }
 
-h2 {
-  font-family: "VT323", sans-serif;
-  font-size: 18px;
-}
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
