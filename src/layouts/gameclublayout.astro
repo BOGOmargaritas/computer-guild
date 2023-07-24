@@ -1,0 +1,19 @@
+---
+import "../css/gameclubstyles.css";
+const {title} = Astro.props;
+---
+
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>{title}</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323"> 
+	</head>
+	  
+	<body>
+		<slot />
+	</body>
+	
+</html>
