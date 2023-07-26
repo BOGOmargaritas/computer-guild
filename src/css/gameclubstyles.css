@@ -84,6 +84,11 @@ li {
 /* GAMECLUB CARD CODE: */
 
 /* Demo Code: */
+
+body {
+  color: #333;
+}
+
 .projcard-container {
   margin: 50px 0;
   float: right;
