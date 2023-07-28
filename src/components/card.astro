@@ -11,7 +11,11 @@ const { title, subtitle, imageUrl, description, tags } = Astro.props;
 			<div class="projcard-bar"></div>
 			<div class="projcard-description">{description}</div>
 			<div class="projcard-tagbox">
-				<span class="projcard-tag">{tags}</span>
+				<div class="projcard-tagbox">
+					{
+						tags.map(tag => <span class="projcard-tag">{tag}</span>)
+					}
+				</div>
 			</div>
 		</div>
 	</div>
