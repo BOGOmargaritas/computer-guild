@@ -11,7 +11,6 @@ const { title, subtitle, imageUrl, description, tags } = Astro.props;
 			<div class="projcard-bar"></div>
 			<div class="projcard-description">{description}</div>
 			<div class="projcard-tagbox">
-				<div class="projcard-tagbox">
 					{
 						tags.map(tag => <span class="projcard-tag">{tag}</span>)
 					}
@@ -19,12 +18,3 @@ const { title, subtitle, imageUrl, description, tags } = Astro.props;
 			</div>
 		</div>
 	</div>
-</div>
-
-<script>
-	// This adds some nice ellipsis to the description:
-	document.querySelectorAll(".projcard-description").forEach(function(box) {
-		$clamp(box, {clamp: 6});
-	});
-
-</script>
