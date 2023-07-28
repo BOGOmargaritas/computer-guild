@@ -95,7 +95,7 @@ import Layout from "../layouts/gameclublayout.astro"
 		
 		// conver elapes frames to radians
 		// TODO: add duration option
-		let angle = framesElapsed * Math.PI / 180;
+		let angle = framesElapsed * Math.PI / 280;
 	
 		// every half turn a.k.a 90 degress, invert the dominant color as the rotaion switches aswell
 		let positiveIsDominant = (angle % Math.PI) > (Math.PI / 2);
