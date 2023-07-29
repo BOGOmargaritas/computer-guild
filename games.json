@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Parasite Eve",
+        "subtitle": "Gay",
+        "imageUrl": "https://t4.ftcdn.net/jpg/05/49/32/99/360_F_549329946_noczk0A40gtnUpY05IRfgjtNTM2MCbQc.jpg",
+        "description": "Cool ass game",
+        "tags": ["good", "not bad"]
+    },
+    {
+        "title": "Gunstar Heroes",
+        "description": "Bad game because 2d",
+        "tags": ["2d", "bad"]
+    }
+]

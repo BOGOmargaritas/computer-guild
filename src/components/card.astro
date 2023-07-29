@@ -1,20 +1,18 @@
 ---
 const { title, subtitle, imageUrl, description, tags } = Astro.props;
 ---
-		
+
 <div class="projcard projcard-blue">
-	<div class="projcard-innerbox">
-		<img class="projcard-img" src={imageUrl} />
-		<div class="projcard-textbox">
-			<div class="projcard-title">{title}</div>
-			<div class="projcard-subtitle">{subtitle}</div>
-			<div class="projcard-bar"></div>
-			<div class="projcard-description">{description}</div>
-			<div class="projcard-tagbox">
-					{
-						tags.map(tag => <span class="projcard-tag">{tag}</span>)
-					}
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="projcard-innerbox">
+        <img class="projcard-img" src={imageUrl} />
+        <div class="projcard-textbox">
+            <div class="projcard-title">{title}</div>
+            <div class="projcard-subtitle">{subtitle}</div>
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">{description}</div>
+            <div class="projcard-tagbox">
+                {tags && tags.map(tag => <span class="projcard-tag">{tag}</span>)}
+            </div>
+        </div>
+    </div>
+</div>
