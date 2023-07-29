@@ -1,14 +1,16 @@
 [
     {
-        "title": "Parasite Eve",
+        "title": "Series 1.5",
         "subtitle": "Gay",
         "imageUrl": "https://t4.ftcdn.net/jpg/05/49/32/99/360_F_549329946_noczk0A40gtnUpY05IRfgjtNTM2MCbQc.jpg",
         "description": "Cool ass game",
         "tags": ["good", "not bad"]
     },
     {
-        "title": "Gunstar Heroes",
-        "description": "Bad game because 2d",
-        "tags": ["2d", "bad"]
+        "title": "Series 1",
+        "subtitle": "Wild Guns",
+        "imageUrl": "https://t4.ftcdn.net/jpg/05/49/32/99/360_F_549329946_noczk0A40gtnUpY05IRfgjtNTM2MCbQc.jpg",
+        "description": "This game is very very fun",
+        "tags": ["good", "not bad"]
     }
 ]
