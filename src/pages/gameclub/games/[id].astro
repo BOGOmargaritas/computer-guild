@@ -1,0 +1,18 @@
+---
+import games from "../../../../games.json";
+import Layout from "../../../layouts/gameclublayout.astro";
+
+export async function getStaticPaths() {
+    return games.map(game => ({
+        params: { id: game.title.toLowerCase().replace(/ /g, "-") },
+        props: { game: game }
+    }));
+}
+
+const { game } = Astro.props;
+---
+
+<Layout title={game.title}>
+    <h1>{game.title}</h1>
+    <p>{game.description}</p>
+</Layout>

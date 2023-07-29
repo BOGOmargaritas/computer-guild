@@ -1,6 +1,6 @@
 ---
 const { title, subtitle, imageUrl, description, tags } = Astro.props;
-const link = subtitle ? "/games/" + subtitle.toLowerCase().replace(/ /g, "-") : "#";
+const link = title ? "/gameclub/games/" + title.toLowerCase().replace(/ /g, "-") : "#";
 ---
 
 <div class="projcard projcard-blue">
