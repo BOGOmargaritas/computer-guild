@@ -2,35 +2,35 @@
     {
         "title": "The Secret of Monkey Island",
         "subtitle": "Series 4",
-        "imageUrl": "card4.jpg",
+        "imageUrl": "/card4.jpg",
         "description": "Guybrush Threepwood's inaugural adventure.",
         "tags": ["Adventure", "Point & Click", "Humor"]
     },
     {
         "title": "The Legend of Zelda: A Link to the Past",
         "subtitle": "Series 3",
-        "imageUrl": "card3.jpg",
+        "imageUrl": "/card3.jpg",
         "description": "Link's third console venture.",
         "tags": ["Adventure", "Super Nintendo", "Game Boy Advance"]
     },
     {
         "title": "Megaman Battle Network 2",
         "subtitle": "Series 2",
-        "imageUrl": "card2.jpg",
+        "imageUrl": "/card2.jpg",
         "description": "The second game in a terrible, long-running GBA series.",
         "tags": ["RPG", "Game Boy Advance"]
     },
     {
         "title": "Parasite Eve",
         "subtitle": "Series 1.5",
-        "imageUrl": "card1.5.jpg",
+        "imageUrl": "/card1.5.jpg",
         "description": "A horror JRPG set in late 90's Manhattan",
         "tags": ["RPG", "Horror", "PlayStation"]
     },
     {
         "title": "Wild Guns",
         "subtitle": "Series 1",
-        "imageUrl": "card1.jpg",
+        "imageUrl": "/card1.jpg",
         "description": "A western arcade-style shooter for the Super Nintendo developed by",
         "tags": ["Shooter", "Western", "Super Nintendo"]
     }
