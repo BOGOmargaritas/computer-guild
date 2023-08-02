@@ -24,7 +24,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   underline: none;
 }
 
@@ -110,8 +110,8 @@ body {
   height: 300px;
   margin-bottom: 40px;
   border-radius: 10px;
-  background-color: #fff;
-  border: 2px solid #ddd;
+  background-color: #333;
+  border: 2px solid #333;
   font-size: 18px;
   overflow: hidden;
   cursor: pointer;
@@ -178,7 +178,7 @@ body {
   position: absolute;
   display: block;
   background: #ff0000bb;
-  background: #fff;
+  background: #333;
   top: -20%;
   left: -55px;
   height: 140%;
@@ -201,11 +201,15 @@ body {
 }
 .projcard-title {
   font-family: 'Voces', 'Open Sans', arial, sans-serif;
-  font-size: 24px;
+  font-size: 30px;
+  color: #fff;
+  font-family: "VT323", sans-serif;
 }
 .projcard-subtitle {
   font-family: 'Voces', 'Open Sans', arial, sans-serif;
   color: #888;
+  font-family: "VT323", sans-serif;
+  font-size: 20px;
 }
 .projcard-bar {
   left: -2px;
@@ -217,7 +221,7 @@ body {
   transition: width 0.2s ease;
 }
 .projcard-blue .projcard-bar { background-color: #0088FF; }
-.projcard-blue::before { background-image: linear-gradient(-70deg, #0088FF, transparent 50%); }
+.projcard-blue::before { background-image: linear-gradient(-70deg, #0088FF, transparent 70%); }
 .projcard-blue:nth-child(2n)::before { background-image: linear-gradient(-250deg, #0088FF, transparent 50%); }
 .projcard-red .projcard-bar { background-color: #D62F1F; }
 .projcard-red::before { background-image: linear-gradient(-70deg, #D62F1F, transparent 50%); }
@@ -243,7 +247,7 @@ body {
 .projcard-description {
   z-index: 10;
   font-size: 15px;
-  color: #424242;
+  color: #eee;
   height: 125px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -258,8 +262,8 @@ body {
 }
 .projcard-tag {
   display: inline-block;
-  background: #E0E0E0;
-  color: #777;
+  background: #fff;
+  color: #333;
   border-radius: 3px 0 0 3px;
   line-height: 26px;
   padding: 0 10px 0 23px;
@@ -272,7 +276,7 @@ body {
 .projcard-tag::before {
   content: '';
   position: absolute;
-  background: #fff;
+  background: #333;
   border-radius: 10px;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
   height: 6px;
@@ -284,7 +288,7 @@ body {
   content: '';
   position: absolute;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid #E0E0E0;
+  border-left: 10px solid #fff;
   border-top: 13px solid transparent;
   right: -10px;
   top: 0;
