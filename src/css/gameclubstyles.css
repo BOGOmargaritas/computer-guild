@@ -247,7 +247,7 @@ body {
 .projcard-description {
   z-index: 10;
   font-size: 15px;
-  color: #eee;
+  color: #ccc;
   height: 125px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -262,7 +262,7 @@ body {
 }
 .projcard-tag {
   display: inline-block;
-  background: #fff;
+  background: #aaa;
   color: #333;
   border-radius: 3px 0 0 3px;
   line-height: 26px;
@@ -288,7 +288,7 @@ body {
   content: '';
   position: absolute;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid #fff;
+  border-left: 10px solid #aaa;
   border-top: 13px solid transparent;
   right: -10px;
   top: 0;
