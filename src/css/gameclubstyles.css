@@ -86,7 +86,7 @@ li {
 /* Demo Code: */
 
 body {
-  color: #333;
+  overflow: scroll;
 }
 
 .projcard-container {
