@@ -37,12 +37,6 @@ li {
 }
 
 .navbar {
-  background-color: #333;
-  position: fixed;
-  overflow: visible;
-  top: 0;
-  height: 100px;
-  width: 30%;
 }
 
 .logo {
