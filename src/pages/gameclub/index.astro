@@ -5,7 +5,7 @@ import games from "../../../games.json";
 ---
 
 <Layout title="gameclub">
-    <div class="projcard-container">
+    <div class="projcard-container" style="display: flex;">
         {games.map(game => <Card {...game} />)}
     </div>
 </Layout>
