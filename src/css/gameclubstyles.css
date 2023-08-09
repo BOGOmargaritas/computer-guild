@@ -36,6 +36,15 @@ li {
   margin-bottom: -10px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 30%;
+}
+
 .logo {
   transition: all .4s ease-in-out;
   }
