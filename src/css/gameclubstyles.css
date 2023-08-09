@@ -37,9 +37,9 @@ li {
 }
 
 .navbar {
-  overflow: hidden;
   background-color: #333;
   position: fixed;
+  overflow: scroll;
   top: 0;
   height: 100%;
   width: 30%;
