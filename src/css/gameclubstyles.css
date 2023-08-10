@@ -93,7 +93,7 @@ body {
 
 .projcard-container {
   margin: 50px 0;
-  float: right;
+  float: left;
 }
 
 /* Actual Code: */
@@ -104,7 +104,8 @@ body {
 .projcard-container {
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 60%;
+  flex-shrink: 3;
 }
 .projcard {
   position: relative;
@@ -202,7 +203,6 @@ body {
   position: relative;
 }
 .projcard-title {
-  font-family: 'Voces', 'Open Sans', arial, sans-serif;
   font-size: 30px;
   color: #fff;
   font-family: "VT323", sans-serif;
@@ -271,6 +271,7 @@ body {
   padding: 0 10px 0 23px;
   position: relative;
   margin-right: 20px;
+  margin-bottom: 5px;
   cursor: default;
   user-select: none;
   transition: color 0.2s;
