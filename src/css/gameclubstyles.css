@@ -37,10 +37,39 @@ li {
 }
 
 .navbar {
+  background-color: #333;
+  position: fixed;
+  overflow: visible;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  z-index: 1000
 }
 
-.logo {
-  transition: all .4s ease-in-out;
+.gclogo {
+  overflow: hide;
+  width: 350px;
+  margin-left: 25px; 
+  margin-top: 50px;
+  background-image: url('../gclogo2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+  .gclogo  img {
+      -webkit-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      -o-transition: all ease 1s;
+      -ms-transition: all ease 1s;
+      transition: all ease 1s;
+  }
+  
+  .gclogo img:hover {
+      opacity:0;
+  }
+  
+  .gclogoimg {
+    width: 100%;
   }
   
 .logo:hover {
