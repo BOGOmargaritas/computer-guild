@@ -196,7 +196,7 @@ li {
 }
 .projcard-blue .projcard-bar { background-color: #0088FF; }
 .projcard-blue::before { background-image: linear-gradient(-70deg, #333, transparent 70%); }
-.projcard-blue:nth-child(2n)::before { background-image: linear-gradient(-250deg, #0088FF, transparent 50%); }
+.projcard-blue:nth-child(2n)::before { background-image: linear-gradient(-250deg, #333, transparent 50%); }
 .projcard-red .projcard-bar { background-color: #D62F1F; }
 .projcard-red::before { background-image: linear-gradient(-70deg, #D62F1F, transparent 50%); }
 .projcard-red:nth-child(2n)::before { background-image: linear-gradient(-250deg, #D62F1F, transparent 50%); }
