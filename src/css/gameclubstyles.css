@@ -341,7 +341,7 @@ background-repeat: no-repeat;
   position: relative;
   overflow: visible;
   top: 0;
-  height: 320px;
+  height: 270px;
   width: 100%;
   border-radius: 50%/0 0 50px 50px;
   z-index: 1000;
@@ -378,7 +378,7 @@ background-repeat: no-repeat;
 }
 
  .projcard-container {
-     margin: 50px 0;
+     margin: 90px 0;
      float: left;
    }
    
