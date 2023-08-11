@@ -236,7 +236,7 @@ li {
 }
 .projcard-tag {
   display: inline-block;
-  background: #fff;
+  background: #aaa;
   color: #333;
   border-radius: 3px 0 0 3px;
   line-height: 26px;
@@ -341,7 +341,7 @@ background-repeat: no-repeat;
   position: relative;
   overflow: visible;
   top: 0;
-  height: 200px;
+  height: 320px;
   width: 100%;
   border-radius: 50%/0 0 50px 50px;
   z-index: 1000;
@@ -353,8 +353,9 @@ background-repeat: no-repeat;
 
 .gclogo {
 overflow: hide;
-width: 165px;
+width: 250px;
 margin: auto;
+margin-top: 10px;
 background-image: url('/gclogo2.png');
 background-size: contain;
 background-repeat: no-repeat;
