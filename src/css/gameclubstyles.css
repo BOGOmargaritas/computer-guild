@@ -315,7 +315,7 @@ body {
 /* END GAMECLUB CARD CODE: */
 /* END GAMECLUB CARD CODE: */
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 801px) {
   .navbar {
   }
  .projcard-container {
@@ -341,7 +341,7 @@ body {
  }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
   .navbar {
     display: none;
   }
