@@ -120,22 +120,7 @@ body {
   overflow: scroll;
 }
 
-.projcard-container {
-  margin: 50px 0;
-  float: left;
-}
 
-/* Actual Code: */
-.projcard-container,
-.projcard-container * {
-  box-sizing: border-box;
-}
-.projcard-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  flex-shrink: 3;
-}
 .projcard {
   position: relative;
   width: 100%;
@@ -330,39 +315,55 @@ body {
 /* END GAMECLUB CARD CODE: */
 /* END GAMECLUB CARD CODE: */
 
+@media only screen and (min-width: 1201px) {
+  .navbar {
+  }
+ .projcard-container {
+   margin: 50px 0;
+   float: left;
+ }
+ 
+ .projcard-container,
+ .projcard-container * {
+   box-sizing: border-box;
+ }
+ .projcard-container {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   display: flex; 
+   flex-direction: column; 
+   margin-left: 450px;
+   flex-shrink: 3;
+ }
+ .topcardbox {
+   margin-right: 500px;
+ }
+}
 
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    display: none;
   }
-  to {
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-.rotating {
-  -webkit-animation: rotating 2s linear infinite;
-  -moz-animation: rotating 2s linear infinite;
-  -ms-animation: rotating 2s linear infinite;
-  -o-animation: rotating 2s linear infinite;
-  animation: rotating 2s linear infinite;
+ .projcard-container {
+     margin: 50px 0;
+     float: left;
+   }
+   
+   .projcard-container,
+   .projcard-container * {
+     box-sizing: border-box;
+   }
+   .projcard-container {
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     margin-left: 30px;
+     flex-shrink: 3;
+   }
+   .topcardbox {
+     margin-right: 60px;
+   }
 }
