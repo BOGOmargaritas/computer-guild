@@ -284,7 +284,11 @@ li {
 /* END GAMECLUB CARD CODE: */
 
 @media only screen and (min-width: 1024px) {
-
+  
+.title {
+  font-family: "VT323", sans-serif;
+  font-size: 30px;
+}
 .navbar {
   background-color: #333;
   position: fixed;
@@ -360,6 +364,7 @@ background-repeat: no-repeat;
    margin-left: auto;
    border-radius: 15px; 
    background-color: #333;
+   margin-bottom: 50px;
  }
  
  .gameinfo {
