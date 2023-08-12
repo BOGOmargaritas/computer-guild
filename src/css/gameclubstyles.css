@@ -475,6 +475,8 @@ background-repeat: no-repeat;
     .projcard-title {
       font-size: 55px;
       line-height: 40px;
+      letter-spacing: .05px;
+      word-spacing: 0.1px;
     }
     .projcard-subtitle {
       font-size: 45px;
