@@ -4,28 +4,32 @@
         "subtitle": "Round 5",
         "imageUrl": "/card5.jpg",
         "description": "Alucard finally meets his Dad eye to eye.",
-        "tags": ["Metroidvania", "Gothic", "Horror"]
+        "tags": ["Metroidvania", "Gothic", "Horror"],
+        "graphic": "/gameclub5.jpg"
     },
     {
         "title": "The Secret of Monkey Island",
         "subtitle": "Round 4",
         "imageUrl": "/card4.jpg",
         "description": "Guybrush Threepwood's inaugural adventure.",
-        "tags": ["Adventure", "Point & Click", "Humor"]
+        "tags": ["Adventure", "Point & Click", "Humor"],
+        "graphic": "/gameclub4.jpg"
     },
     {
         "title": "The Legend of Zelda: A Link to the Past",
         "subtitle": "Round 3",
         "imageUrl": "/card3.jpg",
         "description": "Link's third console venture.",
-        "tags": ["Adventure", "Super Nintendo", "Game Boy Advance"]
+        "tags": ["Adventure", "Super Nintendo", "Game Boy Advance"],
+        "graphic": "/gameclub3.jpg"
     },
     {
         "title": "Megaman Battle Network 2",
         "subtitle": "Round 2",
         "imageUrl": "/card2.jpg",
         "description": "The second game in a terrible, long-running GBA series.",
-        "tags": ["RPG", "Game Boy Advance"]
+        "tags": ["RPG", "Game Boy Advance"],
+        "graphic": "/gameclub2.jpg"
     },
     {
         "title": "Parasite Eve",
@@ -40,6 +44,7 @@
         "subtitle": "Round 1",
         "imageUrl": "/card1.jpg",
         "description": "A western arcade-style shooter for the Super Nintendo developed by",
-        "tags": ["Shooter", "Western", "Super Nintendo"]
+        "tags": ["Shooter", "Western", "Super Nintendo"],
+        "graphic": "/gameclub1.jpg"
     }
 ]
