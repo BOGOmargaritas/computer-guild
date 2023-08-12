@@ -341,6 +341,38 @@ background-repeat: no-repeat;
  .topcardbox {
    margin-right: 500px;
  }
+ 
+ .topgraphicbox {
+    margin-left: 500px;
+    margin-right: 25%;
+  }
+  
+ .gamebox {
+   position: relative; 
+   display: flex;
+   flex-direction: column;
+   height: auto; 
+   width: 100%; 
+   top: 55px; 
+   margin-left: auto;
+   border-radius: 15px; 
+   background-color: #333;
+ }
+ 
+ .gameinfo {
+   padding-top: 5px; 
+   padding-bottom: 20px; 
+   width: 90%; 
+   margin: auto; 
+   overflow: visible; 
+   overflow-wrap: break-word;
+ }
+ 
+ .gamegraphic img {
+   width: 102%; 
+   border-radius: 15px;
+   margin-left: -7px;
+ }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -409,5 +441,31 @@ background-repeat: no-repeat;
    }
    .projcard-tagbox {
      display: none;
+    }
+    
+    .gamebox {
+      margin-top: 100px; 
+      position: relative; 
+      height: auto; 
+      width: 94%; 
+      top: 100px; 
+      margin: auto; 
+      border-radius: 15px; 
+      background-color: #333;
+    }
+    
+    .gameinfo {
+      padding-top: 5px; 
+      padding-bottom: 20px; 
+      width: 90%; 
+      margin: auto; 
+      overflow: visible; 
+      overflow-wrap: break-word;
+    }
+    
+    .gamegraphic img {
+      width: 102%; 
+      border-radius: 15px; 
+      margin-left: -7px;
     }
 }
