@@ -11,17 +11,25 @@ export async function getStaticPaths() {
 
 const { game } = Astro.props;
 ---
-<Layout title={game.title}>
-<div class="topgraphicbox">   
-<div class="gamebox">
-    
-    <div class="gamegraphic"><img src={game.graphic}/></div>
 
-    <div class="gameinfo">
-        <div class="title">{game.title}</div>
-        <p>{game.description}</p>
+<Layout title={game.title}>
+    <div class="card-wrapper">
+        <div class="topgraphicbox">
+            <div class="gamebox">
+                <div class="gamegraphic"><img src={game.graphic} /></div>
+                <div class="gameinfo">
+                    <div class="title">{game.title}</div>
+                    <p>{game.description}</p>
+                </div>
+            </div>
+        </div>
     </div>
-    
-</div>
-</div>
 </Layout>
+
+<style>
+    .card-wrapper {
+        display: flex;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+</style>
