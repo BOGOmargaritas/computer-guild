@@ -184,7 +184,7 @@ li {
   position: relative;
 }
 .projcard-title {
-  font-size: 30px;
+  font-size: 35px;
   color: #fff;
   font-family: "VT323", sans-serif;
 }
@@ -192,7 +192,7 @@ li {
   font-family: 'Voces', 'Open Sans', arial, sans-serif;
   color: #888;
   font-family: "VT323", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 .projcard-bar {
   left: -2px;
@@ -229,11 +229,12 @@ li {
 .projcard-customcolor:nth-child(2n)::before { background-image: linear-gradient(-250deg, var(--projcard-color), transparent 50%); }
 .projcard-description {
   z-index: 10;
-  font-size: 15px;
+  font-size: 16px;
   color: #ccc;
   height: 125px;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: "Bricolage Grotesque";
 }
 .projcard-tagbox {
   position: absolute;
@@ -469,5 +470,15 @@ background-repeat: no-repeat;
       width: 102%; 
       border-radius: 15px; 
       margin-left: -7px;
+    }
+    
+    .projcard-title {
+      font-size: 55px;
+    }
+    .projcard-subtitle {
+      font-size: 45px;
+    }
+    .projcard-description {
+      font-size: 36px;
     }
 }
