@@ -28,9 +28,18 @@ nav a {
   underline: none;
 }
 
+h1 {
+  font-family: "VT323", sans-serif;
+  font-size: 30px;
+}
+
 h2 {
   font-family: "VT323", sans-serif;
   font-size: 18px;
+}
+
+p {
+  font-family: "Bricolage Grotesque";
 }
 
 li {
