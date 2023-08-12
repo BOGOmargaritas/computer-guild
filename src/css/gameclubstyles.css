@@ -339,7 +339,9 @@ background-repeat: no-repeat;
    flex-shrink: 3;
  }
  .topcardbox {
-   margin-right: 500px;
+   margin-right: 800px;
+   /* THIS IS FOR FULL LENGTH CARDS
+   margin-right: 500px; */
  }
  
  .topgraphicbox {
