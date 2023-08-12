@@ -45,6 +45,6 @@
         "imageUrl": "/card1.jpg",
         "description": "A western arcade-style shooter for the Super Nintendo developed by",
         "tags": ["Shooter", "Western", "Super Nintendo"],
-        "graphic": "/gameclub1.jpg"
+        "graphic": "/gameclub.jpg"
     }
 ]
