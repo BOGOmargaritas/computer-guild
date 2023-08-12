@@ -474,11 +474,14 @@ background-repeat: no-repeat;
     
     .projcard-title {
       font-size: 55px;
+      line-height: 30px;
     }
     .projcard-subtitle {
       font-size: 45px;
+      line-height: 30px;
     }
     .projcard-description {
       font-size: 36px;
+      line-height: 30px;
     }
 }
