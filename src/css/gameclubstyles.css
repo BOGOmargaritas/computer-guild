@@ -382,6 +382,25 @@ background-repeat: no-repeat;
    border-radius: 15px;
    margin-left: -7px;
  }
+ 
+ .gcabout img {
+   width: 130px;
+   padding-top: 30px;
+   padding-left: 60px;
+ }
+ 
+ .gcmembers img {
+    width: 130px;
+     padding-top: 10px;
+      padding-left: 180px;
+  }
+  
+  .gchome img {
+     width: 130px;
+      padding-top: 10px;
+       padding-left: 60px;
+   }
+   
 }
 
 @media only screen and (max-width: 1024px) {
@@ -395,10 +414,6 @@ background-repeat: no-repeat;
   width: 100%;
   border-radius: 50%/0 0 50px 50px;
   z-index: 1000;
-}
-
-.navbarlinks {
-  display: none;
 }
 
 .gclogo {
@@ -509,4 +524,25 @@ background-repeat: no-repeat;
     .card-wrapper {
         padding-bottom: 50px;
     }
+     
+     .gcabout img {
+       position: relative;
+       width: 80px;
+       top: -300px;
+       margin-left: 50px;
+     }
+     
+     .gcmembers img {
+        position: relative;
+        width: 80px;
+        top: -300px;
+        margin-left: 200px;
+      }
+      
+      .gchome img {
+         position: relative;
+         width: 80px;
+         top: -450px;
+         margin-left: 750px;
+       }
 }
