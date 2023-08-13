@@ -450,12 +450,13 @@ background-repeat: no-repeat;
    }
       
     .gcabout:hover {
-      margin: 30px 10px 20px 100px;
+      margin: 30px 10px 10px 100px;
     }
     
     .gcmembers {
         width: 80px;
         margin-left: 220px;
+        margin-top: -20px;
         }
     
     .gcmembers img {
@@ -463,12 +464,13 @@ background-repeat: no-repeat;
      }
         
       .gcmembers:hover {
-        margin: 20px 0px 20px 220px;
+        margin: 5px 0px 5px 220px;
       }
  
  .gchome {
      width: 80px;
      margin-left: 100px;
+     margin-top: -20px;
      }
  
  .gchome img {
@@ -476,7 +478,7 @@ background-repeat: no-repeat;
   }
      
    .gchome:hover {
-     margin: 20px 10px 20px 100px;
+     margin: 10px 10px 0px 100px;
    }
   
 }
