@@ -288,6 +288,7 @@ li {
 .title {
   font-family: "VT323", sans-serif;
   font-size: 30px;
+  padding-top: 20px;
 }
 .navbar {
   background-color: #333;
@@ -493,7 +494,7 @@ background-repeat: no-repeat;
     }
     
     .title {
-      padding-top: 10px;
+      padding-top: 30px;
       font-family: "VT323", sans-serif;
       font-size: 70px;
       line-height: 50px;
@@ -503,5 +504,9 @@ background-repeat: no-repeat;
     .gameinfo p {
       font-size: 35px;
       line-height: 30px;
+    }
+    
+    .card-wrapper {
+        padding-bottom: 50px;
     }
 }
