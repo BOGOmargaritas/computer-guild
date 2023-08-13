@@ -525,24 +525,41 @@ background-repeat: no-repeat;
         padding-bottom: 50px;
     }
      
+     .gcabout {
+       position: absolute; 
+       width: 0;
+       top: 0;
+     }
      .gcabout img {
        position: relative;
        width: 80px;
-       top: -300px;
+       top: 40px;
        margin-left: 50px;
+     }
+     
+     .gcmembers {
+       position: absolute;
+       width: 0;
+       top: 0
      }
      
      .gcmembers img {
         position: relative;
         width: 80px;
-        top: -300px;
+        top: 120px;
         margin-left: 200px;
+      }
+      
+      .gchome {
+        position: absolute;
+        width: 0px;
+        top: 0px;
       }
       
       .gchome img {
          position: relative;
          width: 80px;
-         top: -450px;
+         margin-top: 40px;
          margin-left: 750px;
        }
 }
