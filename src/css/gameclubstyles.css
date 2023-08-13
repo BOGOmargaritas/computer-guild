@@ -616,55 +616,58 @@ background-repeat: no-repeat;
        position: absolute; 
        width: 80px;
        top: 40px;
-       left: 50px;
+       margin-left: 50px;
      }
      .gcabout img {
        position: relative;
        width: 80px;
      }
+      
+      .gcabout:hover {
+        transform-origin: center;
+        transform: scale(95%);
+        margin: 0px 0px 0px 50px;
+        filter: brightness(0.7);
+      }
      
      .gcmembers {
        transition: all .4s ease-in-out;
        position: absolute;
        width: 80px;
        top: 120px;
-       left: 200px;
+       margin-left: 200px;
      }
      
      .gcmembers img {
         position: relative;
         width: 80px;
       }
+       
+       .gcmembers:hover {
+         transform-origin: center;
+         transform: scale(95%);
+         margin: -20px 0px 0px 200px;
+         filter: brightness(0.7);
+       }
       
       .gchome {
          transition: all .4s ease-in-out;
         position: absolute;
         width: 80px;
         top: 0px;
-        left: 750px;
+        margin-left: 700px;
       }
       
       .gchome img {
          position: relative;
          width: 80px;
-         margin-top: 40px;
-       }
-       
-       .gcabout:hover {
-         transform-origin: center;
-         transform: scale(95%);
-         filter: brightness(0.7);
-       }
-       
-       .gcmembers:hover {
-         transform-origin: center;
-         transform: scale(95%);
-         filter: brightness(0.7);
+         margin-top: 60px;
        }
        
        .gchome:hover {
          transform-origin: center;
          transform: scale(95%);
+         margin: -20px 0px 0px 700px;
          filter: brightness(0.7);
        }
 }
