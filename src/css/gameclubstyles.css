@@ -45,11 +45,6 @@ p {
 li {
   margin-bottom: -10px;
 }
-  
-.logo:hover {
-  transform: scale(92%);
-  filter: brightness(0.7);
-}
 
 .members {
 }
@@ -382,23 +377,60 @@ background-repeat: no-repeat;
    border-radius: 15px;
    margin-left: -7px;
  }
+  
+  .gcabout {
+       width: 130px;
+       margin-left: 60px;
+       margin-top: 30px;
+    transition: all .4s ease-in-out;
+   }
  
  .gcabout img {
    width: 130px;
-   padding-top: 30px;
-   padding-left: 60px;
+   padding-left: 0px;
  }
+ 
+  .gcabout:hover {
+    transform-origin: center;
+    transform: scale(95%);
+    margin: 30px 10px 20px 60px;
+    filter: brightness(0.7);
+  }
+   
+   .gcmembers {
+     transition: all .4s ease-in-out;
+     width: 130px;
+     padding-top: 10px;
+     margin-left: 180px;
+     }
  
  .gcmembers img {
     width: 130px;
-     padding-top: 10px;
-      padding-left: 180px;
   }
+  
+   .gcmembers:hover {
+     transform-origin: center;
+     transform: scale(95%);
+     margin: 20px 10px 20px 180px;
+     filter: brightness(0.7);
+   }
+    
+    .gchome {
+      transition: all .4s ease-in-out;
+      width: 130px;
+      padding-top: 10px;
+      margin-left: 60px;
+      }
   
   .gchome img {
      width: 130px;
-      padding-top: 10px;
-       padding-left: 60px;
+   }
+     
+   .gchome:hover {
+     transform-origin: center;
+     transform: scale(95%);
+     margin: 20px 10px 20px 60px;
+     filter: brightness(0.7);
    }
    
 }
@@ -526,40 +558,59 @@ background-repeat: no-repeat;
     }
      
      .gcabout {
+       transition: all .4s ease-in-out;
        position: absolute; 
-       width: 0;
-       top: 0;
+       width: 80px;
+       top: 40px;
+       left: 50px;
      }
      .gcabout img {
        position: relative;
        width: 80px;
-       top: 40px;
-       margin-left: 50px;
      }
      
      .gcmembers {
+       transition: all .4s ease-in-out;
        position: absolute;
-       width: 0;
-       top: 0
+       width: 80px;
+       top: 120px;
+       left: 200px;
      }
      
      .gcmembers img {
         position: relative;
         width: 80px;
-        top: 120px;
-        margin-left: 200px;
       }
       
       .gchome {
+         transition: all .4s ease-in-out;
         position: absolute;
-        width: 0px;
+        width: 80px;
         top: 0px;
+        left: 750px;
       }
       
       .gchome img {
          position: relative;
          width: 80px;
          margin-top: 40px;
-         margin-left: 750px;
+       }
+       
+       .gcabout:hover {
+         transform-origin: center;
+         transform: scale(95%);
+         filter: brightness(0.7);
+       }
+       
+       .gcmembers:hover {
+         transform-origin: center;
+         transform: scale(95%);
+         filter: brightness(0.7);
+       }
+       
+       .gchome:hover {
+         transform-origin: center;
+         transform: scale(95%);
+         filter: brightness(0.7);
        }
 }
