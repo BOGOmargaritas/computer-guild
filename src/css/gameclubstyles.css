@@ -480,6 +480,10 @@ background-repeat: no-repeat;
    .gchome:hover {
      margin: 10px 10px 0px 100px;
    }
+   
+   .topgraphicbox {
+     margin-right: 10%;
+   }
   
 }
 
@@ -669,5 +673,9 @@ background-repeat: no-repeat;
          transform: scale(95%);
          margin: -20px 0px 0px 700px;
          filter: brightness(0.7);
+       }
+       
+       .topgraphicbox {
+         margin-right: 0%;
        }
 }
