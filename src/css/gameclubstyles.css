@@ -434,6 +434,58 @@ background-repeat: no-repeat;
    }
    
 }
+@media only screen and (max-width: 1500px) {
+  
+ .topcardbox {
+   margin-right: 500px;
+ }
+  
+  .gcabout {
+      width: 80px;
+      margin-left: 100px;
+      }
+  
+  .gcabout img {
+     width: 80px;
+   }
+      
+    .gcabout:hover {
+      margin: 30px 10px 20px 100px;
+    }
+    
+    .gcmembers {
+        width: 80px;
+        margin-left: 220px;
+        }
+    
+    .gcmembers img {
+       width: 80px;
+     }
+        
+      .gcmembers:hover {
+        margin: 20px 0px 20px 220px;
+      }
+ 
+ .gchome {
+     width: 80px;
+     margin-left: 100px;
+     }
+ 
+ .gchome img {
+    width: 80px;
+  }
+     
+   .gchome:hover {
+     margin: 20px 10px 20px 100px;
+   }
+  
+}
+
+@media only screen and (max-width: 1300px) {
+ .projcard-tagbox {
+   display: none;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
 
