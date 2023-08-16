@@ -48,6 +48,8 @@ li {
 
 sub {
   color: #999;
+  margin-top: -10px;
+  line-height: 5px;
 }
 
 .members {
@@ -94,6 +96,7 @@ sub {
   font-size: 25px;
   text-decoration: none;
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .gameinfo p {
@@ -103,6 +106,16 @@ sub {
 .gameinfo a {
   color: yellow;
   text-decoration: none;
+}
+
+.reviewsplit img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.reviewlogo img {
+  margin-left: 25%;
+  width: 50%;
 }
 
 /* GAMECLUB CARD CODE: */
@@ -510,6 +523,11 @@ background-repeat: no-repeat;
    .topgraphicbox {
      margin-right: 10%;
    }
+    
+    .reviewimg {
+      width: 200px;
+      margin-bottom: -10px;
+    }
   
 }
 
@@ -721,5 +739,12 @@ background-repeat: no-repeat;
          text-decoration: none;
          line-height: 35px;
          margin-top: 35px;
+         margin-bottom: 0px;
+       }
+       
+       .reviewimg {
+         width: 500px;
+         margin-bottom: -20px;
+         padding-bottom: 0px;
        }
 }
