@@ -317,6 +317,7 @@ sub {
 /* END GAMECLUB CARD CODE: */
 /* END GAMECLUB CARD CODE: */
 
+
 @media only screen and (min-width: 1024px) {
   
 .title {
@@ -473,9 +474,9 @@ background-repeat: no-repeat;
    }
    
    .reviewimg img {
-     width: 50%;
+     width: 35%;
      margin-top: 10px;
-     margin-bottom: -20px;
+     margin-bottom: -17px;
    }
    
 }
@@ -744,8 +745,12 @@ background-repeat: no-repeat;
        }
        
        .reviewimg img {
-         width: 300px;
+         width: 400px;
          margin-top: 20px;
          margin-bottom: -15px;
+       }
+       
+       sub {
+         font-size: 20px;
        }
 }
