@@ -83,6 +83,23 @@ sub {
   height: 10%;
 }
 
+.gameinfo .title {
+  font-size: 50px;
+  line-height: 5px;
+  margin-top: 10px;
+}
+
+.gameinfo h5 {
+  font-family: "VT323", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.gameinfo p {
+  line-height: 20px;
+}
+
 .gameinfo a {
   color: yellow;
   text-decoration: none;

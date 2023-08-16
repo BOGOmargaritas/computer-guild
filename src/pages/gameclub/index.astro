@@ -6,7 +6,7 @@ games.sort((a, b) => (b.frontmatter.subtitle && a.frontmatter.subtitle ? b.front
 ---
 
 <Layout title="gameclub">
-    <div class="topcardbox" style="">
+    <div class="topcardbox">
         <div class="projcard-container" style="">
             {games.map(game => <Card {...game} />)}
         </div>
