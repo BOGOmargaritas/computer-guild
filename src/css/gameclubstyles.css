@@ -46,6 +46,10 @@ li {
   margin-bottom: -10px;
 }
 
+sub {
+  color: #999;
+}
+
 .members {
 }
 
