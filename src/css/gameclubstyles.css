@@ -704,4 +704,22 @@ background-repeat: no-repeat;
        .topgraphicbox {
          margin-right: 0%;
        }
+       
+       .gameinfo p {
+         line-height: 30px;
+       }
+       
+       .gameinfo .title {
+         font-size: 100px;
+         line-height: 15px;
+         margin-top: 10px;
+       }
+       
+       .gameinfo h5 {
+         font-family: "VT323", sans-serif;
+         font-size: 45px;
+         text-decoration: none;
+         line-height: 35px;
+         margin-top: 35px;
+       }
 }
