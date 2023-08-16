@@ -524,7 +524,7 @@ background-repeat: no-repeat;
      margin-right: 10%;
    }
     
-    .reviewimg {
+    .reviewimg img {
       width: 30%;
       margin-bottom: -10px;
     }
@@ -724,11 +724,11 @@ background-repeat: no-repeat;
        }
        
        .gameinfo p {
-         line-height: 60px;
+         line-height: 50px;
        }
        
        .gameinfo .title {
-         font-size: 300px;
+         font-size: 100px;
          line-height: 15px;
          margin-top: 10px;
        }
@@ -743,7 +743,7 @@ background-repeat: no-repeat;
        }
        
        .reviewimg {
-         width: 500px;
+         width: 700px;
          margin-bottom: -10px;
        }
 }
