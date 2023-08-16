@@ -472,6 +472,12 @@ background-repeat: no-repeat;
      filter: brightness(0.7);
    }
    
+   .reviewimg img {
+     width: 50%;
+     margin-top: 10px;
+     margin-bottom: -20px;
+   }
+   
 }
 @media only screen and (max-width: 1500px) {
   
@@ -523,11 +529,6 @@ background-repeat: no-repeat;
    .topgraphicbox {
      margin-right: 10%;
    }
-    
-    .reviewimg img {
-      width: 400px;
-      margin-bottom: -10px;
-    }
   
 }
 
@@ -744,6 +745,7 @@ background-repeat: no-repeat;
        
        .reviewimg img {
          width: 300px;
-         margin-bottom: -10px;
+         margin-top: 20px;
+         margin-bottom: -15px;
        }
 }
