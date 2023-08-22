@@ -475,9 +475,18 @@ background-repeat: no-repeat;
    
    .reviewimg img {
      width: 35%;
-     margin-top: 10px;
+     margin-top: -10px;
      margin-bottom: -17px;
    }
+   
+   .stars {
+     width: 25%;
+     float: left;
+   }
+   
+   .stars p {
+     text-align: center;
+    }
    
 }
 @media only screen and (max-width: 1500px) {
@@ -746,7 +755,7 @@ background-repeat: no-repeat;
        
        .reviewimg img {
          width: 400px;
-         margin-top: 20px;
+         margin-top: -30px;
          margin-bottom: -15px;
        }
        

@@ -8,6 +8,7 @@ tags: ["Shooter", "Western", "Super Nintendo"]
 graphic: /gameclub.jpg
 --- 
 ---
+Review Written by
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
 alt="Review written by Justin" /> </div><br>
 <sub>date published: 8.15.23</sub>
@@ -53,3 +54,22 @@ All these aspects of gameplay combine into a really solid arcade shooter that I 
 
 <div class="reviewsplit"><img src="/reviews/wildguns/conceptart.png"
 alt="Concept art of Clint & Annie" /><div>
+
+<br>
+<br>
+
+<div class="reviewsplit"><img src="/reviews/scores/scoresoutline.png"
+alt="Scores" /><div>
+
+<br>
+<br>
+<div class="scores" style=" width: 100%;">
+     
+<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p>"remove the peashooter"</p></div>
+
+<div class="stars" style="padding-left: 12%;"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"not for me"</p></div>
+
+<div class="stars" style="padding-left: 12%;"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"Gimme more schmups"</p></div>
+
+</div>
+
