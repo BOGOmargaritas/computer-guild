@@ -67,9 +67,9 @@ alt="Scores" /><div>
      
 <div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p>"remove the peashooter"</p></div>
 
-<div class="stars" style="padding-left: 12%;"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"not for me"</p></div>
+<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"not for me"</p></div>
 
-<div class="stars" style="padding-left: 12%;"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"Gimme more schmups"</p></div>
+<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"Gimme more schmups"</p></div>
 
 </div>
 
