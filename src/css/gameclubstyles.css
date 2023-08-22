@@ -511,54 +511,54 @@ background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1500px) {
   
- .topcardbox {
+  .topcardbox {
    margin-right: 500px;
  }
   
   .gcabout {
-      width: 80px;
-      margin-left: 100px;
-      }
+    width: 80px;
+    margin-left: 100px;
+}
   
   .gcabout img {
-     width: 80px;
-   }
-      
-    .gcabout:hover {
-      margin: 30px 10px 10px 100px;
-    }
-    
-    .gcmembers {
-        width: 80px;
-        margin-left: 220px;
-        margin-top: -20px;
-        }
-    
-    .gcmembers img {
-       width: 80px;
-     }
-        
-      .gcmembers:hover {
-        margin: 5px 0px 5px 220px;
-      }
+    width: 80px;
+  }
+  
+  .gcabout:hover {
+    margin: 30px 10px 10px 100px;
+  }
+  
+  .gcmembers {
+    width: 80px;
+    margin-left: 220px;
+    margin-top: -20px;
+  }
+  
+  .gcmembers img {
+    width: 80px;
+  }
+ 
+  .gcmembers:hover {
+    margin: 5px 0px 5px 220px;
+  }
  
  .gchome {
-     width: 80px;
-     margin-left: 100px;
-     margin-top: -20px;
-     }
+    width: 80px;
+    margin-left: 100px;
+    margin-top: -20px;
+  }
  
  .gchome img {
     width: 80px;
   }
-     
-   .gchome:hover {
-     margin: 10px 10px 0px 100px;
-   }
-   
-   .topgraphicbox {
-     margin-right: 10%;
-   }
+  
+  .gchome:hover {
+    margin: 10px 10px 0px 100px;
+  }
+
+  .topgraphicbox {
+    margin-right: 10%;
+  }
   
 }
 
@@ -570,246 +570,254 @@ background-repeat: no-repeat;
 
 @media only screen and (max-width: 1024px) {
 
-.navbar {
-  background-color: #333;
-  position: relative;
-  overflow: visible;
-  top: 0;
-  height: 270px;
-  width: 100%;
-  border-radius: 50%/0 0 50px 50px;
-  z-index: 1000;
-}
+  .navbar {
+    background-color: #333;
+    position: relative;
+    overflow: visible;
+    top: 0;
+    height: 270px;
+    width: 100%;
+    border-radius: 50%/0 0 50px 50px;
+    z-index: 1000;
+  }
 
-.gclogo {
-overflow: hide;
-width: 250px;
-margin: auto;
-margin-top: 10px;
-background-image: url('/gclogo2.png');
-background-size: contain;
-background-repeat: no-repeat;
-}
+  .gclogo {
+    overflow: hide;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url('/gclogo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-.gclogo  img {
+  .gclogo  img {
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -o-transition: all ease 1s;
     -ms-transition: all ease 1s;
     transition: all ease 1s;
-}
+  }
 
-.gclogo img:hover {
+  .gclogo img:hover {
     opacity:0;
-}
+  }
 
-.gclogoimg {
-  width: 100%;
-}
+  .gclogoimg {
+    width: 100%;
+  }
 
-.projcard-container {
-  margin: 90px 0;
-  float: left;
- }
-   
-   .projcard-container,
-   .projcard-container * {
-     box-sizing: border-box;
-   }
-   .projcard-container {
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
-     display: flex; 
-     flex-direction: column; 
-     margin-left: 30px;
-     flex-shrink: 3;
-   }
-   .topcardbox {
-     margin-right: 60px;
-   }
-   .projcard-tagbox {
-     display: none;
-    }
-    
-    .gamebox {
-      margin-top: 100px; 
-      position: relative; 
-      height: auto; 
-      width: 94%; 
-      top: 100px; 
-      margin: auto; 
-      border-radius: 15px; 
-      background-color: #333;
-    }
-    
-    .gameinfo {
-      padding-top: 5px; 
-      padding-bottom: 20px; 
-      width: 90%; 
-      margin: auto; 
-      overflow: visible; 
-      overflow-wrap: break-word;
-    }
-    
-    .gamegraphic img {
-      width: 102%; 
-      border-radius: 15px; 
-      margin-left: -7px;
-    }
-    
-    .projcard-title {
-      font-size: 55px;
-      line-height: 40px;
-      letter-spacing: .05px;
-      word-spacing: 0.1px;
-    }
-    .projcard-subtitle {
-      font-size: 45px;
-      line-height: 45px;
-    }
-    .projcard-description {
-      font-size: 28px;
-      line-height: 30px;
-    }
-    
-    .title {
-      padding-top: 30px;
-      font-family: "VT323", sans-serif;
-      font-size: 70px;
-      line-height: 50px;
-      letter-spacing: .05px;
-      word-spacing: 0.1px;
-    }
-    .gameinfo p {
-      font-size: 35px;
-      line-height: 30px;
-    }
-    
-    .card-wrapper {
-        padding-bottom: 50px;
-    }
-     
-     .gcabout {
-       transition: all .4s ease-in-out;
-       position: absolute; 
-       width: 80px;
-       top: 40px;
-       margin-left: 50px;
-     }
-     .gcabout img {
-       position: relative;
-       width: 80px;
-     }
-      
-      .gcabout:hover {
-        transform-origin: center;
-        transform: scale(95%);
-        margin: 0px 0px 0px 50px;
-        filter: brightness(0.7);
-      }
-     
-     .gcmembers {
-       transition: all .4s ease-in-out;
-       position: absolute;
-       width: 80px;
-       top: 120px;
-       margin-left: 200px;
-     }
-     
-     .gcmembers img {
-        position: relative;
-        width: 80px;
-      }
-       
-       .gcmembers:hover {
-         transform-origin: center;
-         transform: scale(95%);
-         margin: -20px 0px 0px 200px;
-         filter: brightness(0.7);
-       }
-      
-      .gchome {
-         transition: all .4s ease-in-out;
-        position: absolute;
-        width: 80px;
-        top: 0px;
-        margin-left: 700px;
-      }
-      
-      .gchome img {
-         position: relative;
-         width: 80px;
-         margin-top: 60px;
-       }
-       
-       .gchome:hover {
-         transform-origin: center;
-         transform: scale(95%);
-         margin: -20px 0px 0px 700px;
-         filter: brightness(0.7);
-       }
-       
-       .topgraphicbox {
-         margin-right: 0%;
-       }
-       
-       .gameinfo p {
-         line-height: 50px;
-       }
-       
-       .gameinfo .title {
-         font-size: 100px;
-         line-height: 15px;
-         margin-top: 10px;
-       }
-       
-       .gameinfo h5 {
-         font-family: "VT323", sans-serif;
-         font-size: 45px;
-         text-decoration: none;
-         line-height: 35px;
-         margin-top: 35px;
-         margin-bottom: 0px;
-       }
-       
-       .reviewimg img {
-         width: 400px;
-         margin-top: -30px;
-         margin-bottom: -15px;
-       }
-       
-       sub {
-         font-size: 20px;
-       }
-       
-        .stars {
-          width: 70%;
-          margin: auto;
-          padding-top: 30px;
-          padding-bottom: 90px;
-        }
-        
-        .stars p {
-          text-align: center;
-         }
-         
-         .cstars {
-           width: 70%;
-           margin: auto;
-           padding-bottom: 90px;
-         }
-         
-         .cstars p {
-           text-align: center;
-          }
-           
-           .pstars {
-             width: 70%;
-             margin: auto;
-           }
-           
-           .pstars p {
-             text-align: center;
-            }
+  .projcard-container {
+    margin: 90px 0;
+    float: left;
+  }
+  
+  .projcard-container,
+  .projcard-container * {
+    box-sizing: border-box;
+  }
+
+  .projcard-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 30px;
+    flex-shrink: 3;
+  }
+  
+  .topcardbox {
+    margin-right: 60px;
+  }
+  
+  .projcard-tagbox {
+    display: none;
+  } 
+  
+  .gamebox {
+    margin-top: 100px; 
+    position: relative; 
+    height: auto; 
+    width: 94%; 
+    top: 100px; 
+    margin: auto; 
+    border-radius: 15px; 
+    background-color: #333;
+  }
+
+  .gameinfo {
+    padding-top: 5px; 
+    padding-bottom: 20px; 
+    width: 90%; 
+    margin: auto; 
+    overflow: visible; 
+    overflow-wrap: break-word;
+  }
+ 
+  .gamegraphic img {
+    width: 102%; 
+    border-radius: 15px; 
+    margin-left: -7px;
+  }
+
+  .projcard-title {
+    font-size: 55px;
+    line-height: 40px;
+    letter-spacing: .05px;
+    word-spacing: 0.1px;
+  }
+  
+  .projcard-subtitle {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  
+  .projcard-description {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .title {
+    padding-top: 30px;
+    font-family: "VT323", sans-serif;
+    font-size: 70px;
+    line-height: 50px;
+    letter-spacing: .05px;
+    word-spacing: 0.1px;
+  }
+  
+  .gameinfo p {
+    font-size: 35px;
+    line-height: 30px;
+  }
+ 
+  .card-wrapper {
+    padding-bottom: 50px;
+  }
+  
+  .gcabout {
+    transition: all .4s ease-in-out;
+    position: absolute; 
+    width: 80px;
+    top: 40px;
+    margin-left: 50px;
+  }
+  
+  .gcabout img {
+    position: relative;
+    width: 80px;
+  }
+  
+  .gcabout:hover {
+    transform-origin: center;
+    transform: scale(95%);
+    margin: 0px 0px 0px 50px;
+    filter: brightness(0.7);
+  }
+  
+  .gcmembers {
+    transition: all .4s ease-in-out;
+    position: absolute;
+    width: 80px;
+    top: 120px;
+    margin-left: 200px;
+  }
+  
+  .gcmembers img {
+    position: relative;
+    width: 80px;
+  } 
+  
+  .gcmembers:hover {
+    transform-origin: center;
+    transform: scale(95%);
+    margin: -20px 0px 0px 200px;
+    filter: brightness(0.7);
+  }  
+  
+  .gchome {
+    transition: all .4s ease-in-out;
+    position: absolute;
+    width: 80px;
+    top: 0px;
+    margin-left: 700px;
+  }    
+  
+  .gchome img {
+    position: relative;
+    width: 80px;
+    margin-top: 60px;
+  }     
+  
+  .gchome:hover {
+    transform-origin: center;
+    transform: scale(95%);
+    margin: -20px 0px 0px 700px;
+    filter: brightness(0.7);
+  }   
+  
+  .topgraphicbox {
+    margin-right: 0%;
+  }     
+  
+  .gameinfo p {
+    line-height: 50px;
+  }     
+  
+  .gameinfo .title {
+    font-size: 100px;
+    line-height: 15px;
+    margin-top: 10px;
+  }     
+  
+  .gameinfo h5 {
+    font-family: "VT323", sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    line-height: 35px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+  }   
+  
+  .reviewimg img {
+    width: 400px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+  }   
+  
+  sub {
+    font-size: 20px;
+  }     
+  
+  .stars {
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }    
+  
+  .stars p {
+    text-align: center;
+  }      
+  
+  .cstars {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 90px;
+  }
+  
+  .cstars p {
+    text-align: center;
+  }       
+  
+  .pstars {
+    width: 70%;
+    margin: auto;
+  }        
+  
+  .pstars p {
+    text-align: center;
+  }
+  
 }
