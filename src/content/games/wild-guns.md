@@ -3,7 +3,7 @@ slug: wild-guns
 title: Wild Guns
 subtitle: Round 1
 imageUrl: /card1.jpg
-description: A western arcade-style shooter for the Super Nintendo developed by Natsume
+description: A wild west arcade-style shooter for the Super Nintendo developed by Natsume
 tags: ["Shooter", "Western", "Super Nintendo"]
 graphic: /gameclub.jpg
 --- 
