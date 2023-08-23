@@ -480,6 +480,7 @@ background-repeat: no-repeat;
    }
    
    .stars {
+     user-select: none;
      width: 25%;
      float: left;
    }
@@ -489,6 +490,7 @@ background-repeat: no-repeat;
     }
     
     .cstars {
+      user-select: none;
       padding-left: 12%;
       width: 25%;
       float: left;
@@ -499,6 +501,7 @@ background-repeat: no-repeat;
    }
      
      .pstars {
+       user-select: none;
        padding-left: 12%;
        width: 25%;
        float: left;
@@ -791,6 +794,7 @@ background-repeat: no-repeat;
   }     
   
   .stars {
+    user-select: none;
     width: 70%;
     margin: auto;
     padding-top: 30px;
@@ -802,6 +806,7 @@ background-repeat: no-repeat;
   }      
   
   .cstars {
+    user-select: none;
     width: 70%;
     margin: auto;
     padding-bottom: 90px;
@@ -812,6 +817,7 @@ background-repeat: no-repeat;
   }       
   
   .pstars {
+    user-select: none;
     width: 70%;
     margin: auto;
   }        
