@@ -485,6 +485,10 @@ background-repeat: no-repeat;
      float: left;
    }
    
+   .stars img { 
+     user-select: none;
+   }
+   
    .stars p {
      text-align: center;
     }
@@ -495,6 +499,11 @@ background-repeat: no-repeat;
       width: 25%;
       float: left;
     }
+  
+   
+   .cstars img { 
+     user-select: none;
+   }
    
    .cstars p {
       text-align: center;
@@ -506,7 +515,11 @@ background-repeat: no-repeat;
        width: 25%;
        float: left;
      }
-    
+  
+   .pstars img { 
+     user-select: none;
+   }
+   
     .pstars p {
        text-align: center;
     }
