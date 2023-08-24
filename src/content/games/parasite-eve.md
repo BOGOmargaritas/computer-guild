@@ -63,7 +63,7 @@ alt="Scores" /><div>
 	 
 <div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/5star.png"><p>"Resident Evil WHO?"</p><p>"More games need maps like this"</div>
 
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/3star.png"><p>"They don't make 'em like this anymore"</p></div>
+<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p>"They don't make 'em like this anymore"</p></div>
 
 <div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/3star.png"><p>"The vibe is tangible"</p><p>"I just don't care about mitochondria"</p></div>
 

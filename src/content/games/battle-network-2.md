@@ -1,5 +1,5 @@
 ---
-title: Megaman Battle Network 2
+title: Mega Man Battle Network 2
 slug: battle-network-2
 subtitle: Round 2
 imageUrl: /card2.jpg
