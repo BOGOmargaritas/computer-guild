@@ -574,6 +574,15 @@ background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 1024px) {
+  
+  sub {
+    font-size: 20px;
+  }
+  
+  li {
+    font-size: 35px;
+    line-height: 80px;
+  }
 
   .navbar {
     background-color: #333;
@@ -772,8 +781,8 @@ background-repeat: no-repeat;
   
   .gameinfo .title {
     font-size: 100px;
-    line-height: 15px;
-    margin-top: 10px;
+    line-height: 90px;
+    margin-top: -10px;
   }     
   
   .gameinfo h5 {
@@ -790,10 +799,6 @@ background-repeat: no-repeat;
     margin-top: -30px;
     margin-bottom: -15px;
   }   
-  
-  sub {
-    font-size: 20px;
-  }     
   
   .stars {
     width: 70%;
@@ -823,11 +828,6 @@ background-repeat: no-repeat;
   
   .pstars p {
     text-align: center;
-  }
-  
-  li {
-    font-size: 35px;
-    line-height: 80px;
   }
   
 }
