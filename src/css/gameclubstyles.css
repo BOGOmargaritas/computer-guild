@@ -581,7 +581,8 @@ background-repeat: no-repeat;
   
   li {
     font-size: 35px;
-    line-height: 80px;
+    line-height: 40px;
+    padding-bottom: 30px;
   }
 
   .navbar {
