@@ -819,14 +819,14 @@ background-repeat: no-repeat;
     font-size: 20px;
     width: 50%; 
     display: flex; 
-    margin-top: 12px;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
   }
   
   .reviewimg img {
     width: 400px;
-    margin-top: 7px;
-    margin-bottom: -24px;
+    margin-top: 5px;
+    margin-bottom: -30px;
   }   
   
   .stars {
