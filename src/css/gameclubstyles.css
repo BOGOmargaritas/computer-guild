@@ -478,10 +478,17 @@ background-repeat: no-repeat;
      filter: brightness(0.7);
    }
    
+   .reviewinfo {
+     width: 50%; 
+     display: flex; 
+     margin-top: 12px;
+     padding-bottom: 8px;
+   }
+   
    .reviewimg img {
      width: 130%;
      margin-top: 7px;
-     margin-bottom: -17px;
+     margin-bottom: -22px;
    }
    
    .stars {
@@ -565,11 +572,24 @@ background-repeat: no-repeat;
     margin-right: 10%;
   }
   
+  .gameinfo .title {
+    line-height: 38px;
+    margin-top: -10px;
+  }     
+  
 }
 
 @media only screen and (max-width: 1300px) {
  .projcard-tagbox {
    display: none;
+  }
+  
+  .reviewinfo {
+    font-size: 20px;
+    width: 90%; 
+    display: flex; 
+    margin-top: 12px;
+    padding-bottom: 10px;
   }
 }
 
@@ -795,10 +815,18 @@ background-repeat: no-repeat;
     margin-bottom: 0px;
   }   
   
+  .reviewinfo {
+    font-size: 20px;
+    width: 50%; 
+    display: flex; 
+    margin-top: 12px;
+    padding-bottom: 10px;
+  }
+  
   .reviewimg img {
     width: 400px;
-    margin-top: 5px;
-    margin-bottom: -15px;
+    margin-top: 7px;
+    margin-bottom: -24px;
   }   
   
   .stars {
