@@ -8,10 +8,20 @@ tags: ["Shooter", "Western", "Super Nintendo"]
 graphic: /gameclub.jpg
 --- 
 ---
-Review Written by
+<div class="reviewinfo">
+    
+<div style="">Review Written by
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
-alt="Review written by Justin" /> </div><br>
-<sub>date published: 8.15.23</sub>
+alt="Justin"/> </div><br>
+<sub>date published: 8.15.23</sub></div>
+
+<div style="">Game Suggested By
+<div class="reviewimg"><img src="/reviews/reviewpatrick.png"
+alt="Patrick"/> </div><br></div>
+
+</div>
+
+---
 
 I am standing inside a cube-shaped building with an old-western facade in the middle of an amusement park. Around my neck is a red paisley bandana and in my hand rests a rifle with a plastic orange tip. I am age 8 and my family has decided to take a break from all of the fun and excitement of Cedar Point to have old-timey, wild west-style portraits shot of my sister and I. As the photographer lines up one of their (many) shots, my 8 year-old self dissociates from reality and begins dreaming about what life might have been like back in the days of the Wild West — Saloons and shootouts, broncos and bushwhackers, saddlebags and spurs. Whatever life really WAS like back then, I knew for sure it was NOT like
 <div class="reviewlogo"><img src="/reviews/wildguns/logo.png"

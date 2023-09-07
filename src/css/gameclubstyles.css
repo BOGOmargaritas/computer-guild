@@ -802,7 +802,7 @@ background-repeat: no-repeat;
   
   .gameinfo .title {
     font-size: 100px;
-    line-height: 90px;
+    line-height: 85px;
     margin-top: -10px;
   }     
   
@@ -811,7 +811,7 @@ background-repeat: no-repeat;
     font-size: 45px;
     text-decoration: none;
     line-height: 35px;
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 0px;
   }   
   

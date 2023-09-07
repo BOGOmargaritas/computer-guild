@@ -8,10 +8,20 @@ tags: [RPG, Horror, PlayStation]
 graphic: /gameclub1.5.jpg
 ---
 ---
-Review Written by
+<div class="reviewinfo">
+	
+<div style="">Review Written by
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
-alt="Review written by Justin" /> </div><br>
-<sub>date published: 8.23.23</sub>
+alt="Justin"/> </div><br>
+<sub>date published: 8.23.23</sub></div>
+
+<div style="">Game Suggested By
+<div class="reviewimg"><img src="/reviews/reviewjustin.png"
+alt="Justin"/> </div><br></div>
+
+</div>
+
+---
 
 For some reason, I could ask anyone around my age what the ‘powerhouse of the cell’ is and they would almost certainly respond with [‘the mitochondria’.](/reviews/parasite/mitochondria.jpg) Someone, somewhere wrote the phrase “The mitochondria is the powerhouse of the cell” and it caused a staggering ripple effect that will outlive the biologist tenfold. I draw pictures and choose colors for a living, so I never had much of an interest in biology. I can remember what the powerhouse of the cell is, but I really don’t know what that actually means and I would be willing to bet that most people who can recite that cursed phrase do not really know what it actually means either. Powerhouse.. Cell.. These are words I understand, but how is the power being generated? What is the mitochondria really doing? Again, I am not really THAT interested in biology, so to uncover this mystery, I turned to 
 <div class="reviewlogo"><img src="/reviews/parasite/logo.png"
