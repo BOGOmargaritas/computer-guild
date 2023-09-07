@@ -869,4 +869,8 @@ background-repeat: no-repeat;
     margin-left: 2%;
   }
   
+  .abouttext {
+    font-size: 20px;
+  }
+  
 }
