@@ -520,6 +520,11 @@ background-repeat: no-repeat;
        text-align: center;
     }
     
+    .infopagehead img {
+      width: 95%;
+      margin-left: 2.5%;
+    }
+    
 }
 @media only screen and (max-width: 1500px) {
   
@@ -857,6 +862,11 @@ background-repeat: no-repeat;
   
   .pstars p {
     text-align: center;
+  }
+  
+  .infopagehead img {
+    width: 95%;
+    margin-left: 2%;
   }
   
 }
