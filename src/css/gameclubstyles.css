@@ -479,8 +479,8 @@ background-repeat: no-repeat;
    }
    
    .reviewimg img {
-     width: 35%;
-     margin-top: -10px;
+     width: 130%;
+     margin-top: 7px;
      margin-bottom: -17px;
    }
    
@@ -797,7 +797,7 @@ background-repeat: no-repeat;
   
   .reviewimg img {
     width: 400px;
-    margin-top: -30px;
+    margin-top: 5px;
     margin-bottom: -15px;
   }   
   

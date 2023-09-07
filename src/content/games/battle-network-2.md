@@ -8,10 +8,18 @@ tags: [RPG, Game Boy Advance]
 graphic: /gameclub2.jpg
 ---
 ---
-Review Written by
+<div style="width: 50%; display: flex; margin-top: 12px;">
+	
+<div style="">Review Written by
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
 alt="Justin"/> </div><br>
-<sub>date published: 8.29.23</sub>
+<sub>date published: 8.29.23</sub></div>
+
+<div style="">Game Suggested By
+<div class="reviewimg"><img src="/reviews/reviewpatrick.png"
+alt="Justin"/> </div><br></div>
+
+</div>
 
 Did you have that one friend growing up that was into some stuff you just couldn’t get into? [Maybe their clothing style was just a little too ‘out there’](/reviews/battlenetwork2/clothing.jpg) or maybe their [music taste was a little too hardcore.](/reviews/battlenetwork2/music.jpg) If you had that friend, you might have loved them regardless of all the shit they liked that you didn’t. But what if that friend was obsessed with Mega Man? What then? Can you still love that friend? Are you even still friends with them? Do you hate this new bitter rival? Picture that day in middle school when they tell you they got a new GBA game last night and that you have to come over and check it out. After school, you hop off the bus and they continue to tell you about it as you walk over to their house. Sounds like it could be.. Chain of memories? Advance Wars? Fire Emblem?? Any of those choices would be amazing. Instead, they boot up their [navy blue GameBoy Advance SP](/reviews/battlenetwork2/gbasp.png) to reveal 
 <div class="reviewlogo"><img src="/reviews/battlenetwork2/logo.gif"
