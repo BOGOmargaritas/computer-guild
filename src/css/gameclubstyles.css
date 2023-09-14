@@ -88,8 +88,7 @@ sub {
 
 .gameinfo .title {
   font-size: 50px;
-  line-height: 35px;
-  margin-top: 10px;
+  line-height: 40px;
 }
 
 .gameinfo h5 {
