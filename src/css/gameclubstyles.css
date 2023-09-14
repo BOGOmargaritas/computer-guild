@@ -40,7 +40,7 @@ h2 {
 }
 
 p {
-  font-family: "Bricolage Grotesque";
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 li {
@@ -269,7 +269,7 @@ sub {
   height: 125px;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: "Bricolage Grotesque";
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 .projcard-tagbox {
   position: absolute;
