@@ -25,7 +25,7 @@ alt="Patrick"/> </div><br></div>
 
 I’ve always been enamored with pirate history. Swashbuckling, deck swabbing, swill drinking pirates. They braved the high seas together with their crew of outlaws and took what wasn’t (necessarily) theirs. Edward Teach, William Kidd, Anne Bonny, Mary Read & John Rackham (to name a few). I read their stories when I was a kid and dreamed of what their life must have been like. Sailing the high seas for days, weeks, months at a time. Did they actually enjoy sailing? Or was piracy just a way to make a quick ‘piece of eight’? Luckily, Game Club played a game that gave me some more insight into what my favorite pirates what have been like in real life - a game by the name of <br>
 <div class="reviewlogo"><img src="/reviews/monkeyisland/title.gif"
-alt="Monkey Island Title Screen" style="border-radius: 20px;"/></div>
+alt="Monkey Island Title Screen" style="border-radius: 20px;"/></div><br>
 
 ---
 
