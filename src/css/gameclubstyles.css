@@ -684,12 +684,12 @@ background-repeat: no-repeat;
      .gchome:hover {
        transform-origin: center;
        transform: scale(95%);
-       margin: 20px 10px 20px 60px;
+       margin: 10px 10px 0px 60px;
        filter: brightness(0.7);
      }
      
   .projcard-container {
-     margin-left: 400px;
+     margin-left: 350px;
    }
 }
 
