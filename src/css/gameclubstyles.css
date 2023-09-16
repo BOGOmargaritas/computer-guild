@@ -666,7 +666,7 @@ background-repeat: no-repeat;
      .gcmembers:hover {
        transform-origin: center;
        transform: scale(95%);
-       margin: 20px 10px 20px 180px;
+       margin: 5px 10px 5px 180px;
        filter: brightness(0.7);
      }
       
@@ -687,6 +687,10 @@ background-repeat: no-repeat;
        margin: 20px 10px 20px 60px;
        filter: brightness(0.7);
      }
+     
+  .projcard-container {
+     margin-left: 400px;
+   }
 }
 
 @media only screen and (max-width: 1024px) {
