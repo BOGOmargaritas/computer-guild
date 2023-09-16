@@ -622,6 +622,71 @@ background-repeat: no-repeat;
   .gclogoimg {
     width: 100%;
   }
+  
+  .navbar {
+    background-color: #333;
+    position: fixed;
+    overflow: visible;
+    top: 0;
+    height: 100%;
+    width: 325px;
+    z-index: 1000
+  }
+  
+  .gcabout {
+         width: 130px;
+         margin-left: 20px;
+         margin-top: 30px;
+      transition: all .4s ease-in-out;
+     }
+   
+   .gcabout img {
+     width: 130px;
+     padding-left: 0px;
+   }
+   
+    .gcabout:hover {
+      transform-origin: center;
+      transform: scale(95%);
+      margin: 30px 10px 20px 60px;
+      filter: brightness(0.7);
+    }
+     
+     .gcmembers {
+       transition: all .4s ease-in-out;
+       width: 130px;
+       padding-top: 10px;
+       margin-left: 140px;
+       }
+   
+   .gcmembers img {
+      width: 130px;
+    }
+    
+     .gcmembers:hover {
+       transform-origin: center;
+       transform: scale(95%);
+       margin: 20px 10px 20px 180px;
+       filter: brightness(0.7);
+     }
+      
+      .gchome {
+        transition: all .4s ease-in-out;
+        width: 130px;
+        padding-top: 10px;
+        margin-left: 20px;
+        }
+    
+    .gchome img {
+       width: 130px;
+     }
+       
+     .gchome:hover {
+       transform-origin: center;
+       transform: scale(95%);
+       margin: 20px 10px 20px 60px;
+       filter: brightness(0.7);
+     }
 }
 
 @media only screen and (max-width: 1024px) {
