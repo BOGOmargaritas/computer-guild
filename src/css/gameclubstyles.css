@@ -635,7 +635,7 @@ background-repeat: no-repeat;
   
   .gcabout {
          width: 80px;
-         margin-left: 20px;
+         margin-left: 60px;
          margin-top: 30px;
       transition: all .4s ease-in-out;
      }
@@ -656,7 +656,7 @@ background-repeat: no-repeat;
        transition: all .4s ease-in-out;
        width: 80px;
        padding-top: 10px;
-       margin-left: 140px;
+       margin-left: 180px;
        }
    
    .gcmembers img {
@@ -674,7 +674,7 @@ background-repeat: no-repeat;
         transition: all .4s ease-in-out;
         width: 80px;
         padding-top: 10px;
-        margin-left: 20px;
+        margin-left: 60px;
         }
     
     .gchome img {
