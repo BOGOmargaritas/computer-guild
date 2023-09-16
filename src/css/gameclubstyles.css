@@ -596,6 +596,32 @@ background-repeat: no-repeat;
     margin-top: 12px;
     padding-bottom: 10px;
   }
+  
+  .gclogo {
+  overflow: hide;
+  width: 275px;
+  margin-left: 25px; 
+  margin-top: 50px;
+  background-image: url('/gclogo2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+  .gclogo  img {
+      -webkit-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      -o-transition: all ease 1s;
+      -ms-transition: all ease 1s;
+      transition: all ease 1s;
+  }
+  
+  .gclogo img:hover {
+      opacity:0;
+  }
+  
+  .gclogoimg {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
