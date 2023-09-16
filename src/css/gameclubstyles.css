@@ -689,8 +689,12 @@ background-repeat: no-repeat;
      }
      
   .projcard-container {
-     margin-left: 350px;
+     margin-left: 375px;
    }
+   
+   .topcardbox {
+      margin-right: 300px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
