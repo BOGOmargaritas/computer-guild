@@ -695,6 +695,10 @@ background-repeat: no-repeat;
    .topcardbox {
       margin-right: 425px;
     }
+    
+    .topgraphicbox {
+      margin-left: 350px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -898,6 +902,7 @@ background-repeat: no-repeat;
   
   .topgraphicbox {
     margin-right: 0%;
+    margin-left: 0;
   }     
   
   .gameinfo p {
