@@ -317,6 +317,14 @@ sub {
 /* END GAMECLUB CARD CODE: */
 /* END GAMECLUB CARD CODE: */
 
+@media only screen and (min-width: 1800px) {
+ 
+ .topgraphicbox {
+   margin: auto;
+ }
+  
+}
+
 
 @media only screen and (min-width: 1024px) {
   
