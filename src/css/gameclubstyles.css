@@ -319,8 +319,11 @@ sub {
 
 @media only screen and (min-width: 1800px) {
  
+ .card-wrapper {
+   margin: auto;
+ }
+ 
  .topgraphicbox {
-   margin-left: 20%;
    max-width: 1000px;
  }
   
