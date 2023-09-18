@@ -1,15 +1,21 @@
 {
-  "name": "guild-computer",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^2.3.2"
-  }
+    "name": "guild-computer",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/vercel": "^5.0.0",
+        "astro": "^3.1.0",
+        "drizzle-orm": "^0.28.6",
+        "postgres": "^3.3.5"
+    },
+    "devDependencies": {
+        "drizzle-kit": "^0.19.13"
+    }
 }
