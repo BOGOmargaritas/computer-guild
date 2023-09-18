@@ -12,10 +12,21 @@ games.sort((a, b) => (b.frontmatter.subtitle && a.frontmatter.subtitle ? b.front
            <div class="card-wrapper">
                <div class="topgraphicbox">
                    <div class="gamebox">
-                       <div class="infopagehead"><img src="/about.png" style=""></div>
-                       <div class="abouttext" style="padding-top: 10px; padding-bottom: 10px; width: 90%; margin: auto;">
-                           <p style="text-align: center; color: #bbb">The Computer Guild Game Club™ was founded in 2023 by The Computer Guild ®</p>
-                           <p style="text-align: justify;;">The Computer Guild Game Club's mission is to learn, grow, and gain experience through the entertainment of video games.</p>
+                       <div class="infopagehead"><img src="/about.png" style="margin-bottom: -25px;"></div>
+                       <div class="abouttext" style="padding-top: 0px; padding-bottom: 10px; width: 90%; margin: auto;">
+                           <p class="sub" style="text-align: center; color: #bbb">The Computer Guild Game Club™ was founded in 2023 by The Computer Guild ®</p>
+                           <div id="subscription">
+                              <input placeholder="Enter your email" id="username-article" type="text">
+                              <input onclick="getsubscribearticle()" value="Subscribe" type="submit">
+                              <input name="ip" value="1.187.136.67" class="inputtxt" id="ip" type="hidden">
+                              <input name="time" value="1466699001" class="inputtxt" id="time" type="hidden">
+                           </div>
+                           <img src="/about/mission.png" class="aboutimg">
+                           <p style="text-align: justify;">The Computer Guild Game Club's mission is to learn, grow, and gain experience through the entertainment of video games.</p>
+                           <img src="/about/what-we-do.png" class="aboutimg">
+                           <p style="text-align: justify;">The Computer Guild Game Club's mission is to learn, grow, and gain experience through the entertainment of video games.</p>
+                           <img src="/about/how-we-do-it.png" class="aboutimg">
+                           <p style="text-align: justify;">The Computer Guild Game Club's mission is to learn, grow, and gain experience through the entertainment of video games.</p>
                        </div>
                    </div>
                 </div>
