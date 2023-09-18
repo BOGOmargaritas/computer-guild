@@ -699,11 +699,23 @@ background-repeat: no-repeat;
     .topgraphicbox {
       margin-left: 375px;
     }
-    
+   
+  .reviewimg {
+   margin-top: -8px; 
+  }
+  
   .reviewimg img {
-     width: 90%;
-     margin-top: 7px;
-     margin-bottom: -22px;
+     width: 80%;
+     margin-top: -25px;
+     margin-bottom: -32px;
+   }
+   
+   .reviewinfo span {
+     font-size: 13px;
+   }
+  
+   .reviewinfo sub {
+     font-size: 13px;
    }
 }
 
@@ -982,5 +994,17 @@ background-repeat: no-repeat;
   .abouttext {
     font-size: 35px;
   }
+  
+  .reviewimg {
+   margin-top: 0px; 
+  }
+  
+  .reviewinfo span {
+     font-size: 20px;
+   }
+  
+  .reviewinfo sub {
+     font-size: 20px;
+   }
   
 }
