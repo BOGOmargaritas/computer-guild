@@ -321,6 +321,7 @@ sub {
  
  .topgraphicbox {
    margin: auto;
+   max-width: 850px;
  }
   
 }
