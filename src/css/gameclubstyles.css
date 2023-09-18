@@ -320,7 +320,7 @@ sub {
 @media only screen and (min-width: 1800px) {
  
  .topgraphicbox {
-   margin: 0;
+   margin-left: 20%;
    max-width: 1000px;
  }
   
