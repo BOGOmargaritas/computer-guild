@@ -10,12 +10,12 @@ graphic: /gameclub3.jpg
 ---
 <div class="reviewinfo">
 	
-<div style="">Review Written by
+<div style=""><span>Review Written by</span>
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
 alt="Justin"/> </div><br>
 <sub>date published: 9.8.23</sub></div>
 
-<div style="">Game Suggested By
+<div style=""><span>Game Suggested By</span>
 <div class="reviewimg"><img src="/reviews/reviewcullen.png"
 alt="Cullen"/> </div><br></div>
 
