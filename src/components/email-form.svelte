@@ -31,7 +31,7 @@
             {#if submitting}
                 <Loader2 size="1.5rem" class="loader" />
             {/if}
-            Submit
+            Subscribe
         </button>
     </div>
     <p class="error">{errorMessage}</p>
