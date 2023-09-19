@@ -1,6 +1,4 @@
 <script lang="ts">
-    import { Loader2 } from "lucide-svelte";
-
     let errorMessage = "";
     let submitting = false;
 
@@ -29,7 +27,18 @@
         <input class="input" type="email" id="email" name="email" placeholder="gameclubfan@whatever.com" disabled={submitting} required />
         <button disabled={submitting} type="submit">
             {#if submitting}
-                <Loader2 size="1.5rem" class="loader" />
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-loader-2 loader"><path d="M21 12a9 9 0 1 1-6.219-8.56" /></svg
+                >
             {/if}
             Subscribe
         </button>
@@ -113,7 +122,7 @@
         background-color: #5663f6;
         color: white;
     }
-    
+
     button:hover {
         background-color: #6e7ef4;
     }
@@ -130,16 +139,12 @@
     }
 
     .loader {
-        margin-right: 0.5rem;
-        height: 1rem;
-        width: 1rem;
         animation: spin 1s linear infinite;
-        color: red;
     }
 
     .error {
         font-size: 14px;
-        color: #FBEFDA;
+        color: #fbefda;
     }
     
     @media only screen and (max-width: 1024px) {
