@@ -1,6 +1,6 @@
 <script lang="ts">
     let errorMessage = "";
-    let submitting = true;
+    let submitting = false;
 
     const onSubmit = async (e: SubmitEvent) => {
         e.preventDefault();
