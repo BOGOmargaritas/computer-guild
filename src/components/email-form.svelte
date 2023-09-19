@@ -39,7 +39,7 @@
 
 <style scoped>
     .container {
-        width: "100%";
+        width: "120%";
         display: flex;
         justify-content: center;
         align-items: center;
@@ -95,7 +95,7 @@
             backdrop-filter, -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-        transition-duration: 0.2s;
+        transition-duration: 0.4s;
         padding-left: 1rem;
         padding-right: 1rem;
         min-height: 3rem;
@@ -106,6 +106,10 @@
         text-decoration-line: none;
         background-color: #5663f6;
         color: white;
+    }
+    
+    button:hover {
+        background-color: #6e7ef4;
     }
 
     button:disabled {
@@ -129,6 +133,6 @@
 
     .error {
         font-size: 18px;
-        color: #5663f6;
+        color: #FBEFDA;
     }
 </style>
