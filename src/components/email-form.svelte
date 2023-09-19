@@ -51,6 +51,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-top: 10px;
+        margin-bottom: -30px;
     }
 
     .input-group {
