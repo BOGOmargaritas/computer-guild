@@ -26,8 +26,6 @@
             formMessage = "";
         }
 
-        console.log({ formError });
-
         submitting = false;
     };
 </script>
