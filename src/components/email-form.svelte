@@ -14,18 +14,8 @@
         });
         const data = await response.json();
 
-        if (data.error) {
-            formError = true;
-        } else {
-            formError = false;
-        }
-
-        if (data.message) {
-            formMessage = data.message;
-        } else {
-            formMessage = "";
-        }
-
+        formError = data.error;
+        formMessage = data.message;
         submitting = false;
     };
 </script>
