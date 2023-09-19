@@ -66,7 +66,7 @@
 
     input {
         flex-shrink: 1;
-        width: 250px;
+        width: 16rem;
         height: 3rem;
         padding-left: 1rem;
         padding-right: 1rem;
