@@ -76,8 +76,9 @@
         border-radius: var(--rounded-btn, 0.5rem);
     }
     
-    input:placeholder {
-        width: 100%
+    input::placeholder {
+        color: #ccc;
+        width: 100%;
     }
 
     button {
