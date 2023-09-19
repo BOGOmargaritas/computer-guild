@@ -26,7 +26,7 @@
 
 <form on:submit={onSubmit} class="container">
     <div class="input-group">
-        <input class="input" type="email" id="email" name="email" placeholder="gameclubfan@gmail.com" disabled={submitting} required />
+        <input class="input" type="email" id="email" name="email" placeholder="gameclubfan@whatever.com" disabled={submitting} required />
         <button disabled={submitting} type="submit">
             {#if submitting}
                 <Loader2 size="1.5rem" class="loader" />
@@ -39,7 +39,7 @@
 
 <style scoped>
     .container {
-        width: "120%";
+        width: "100%";
         display: flex;
         justify-content: center;
         align-items: center;
@@ -68,7 +68,7 @@
         flex-shrink: 1;
         height: 3rem;
         padding-left: 1rem;
-        padding-right: 1rem;
+        padding-right: 5rem;
         font-size: 1rem;
         line-height: 2;
         line-height: 1.5rem;
