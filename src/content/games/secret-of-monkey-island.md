@@ -17,7 +17,7 @@ alt="Justin"/> </div><br>
 
 <div style=""><span>Game Suggested By</span>
 <div class="reviewimg"><img src="/reviews/reviewpatrick.png"
-alt="Patrick"/> </div><br></div> 
+alt="Patrick"/> </div><br></div>
 
 </div>
 
