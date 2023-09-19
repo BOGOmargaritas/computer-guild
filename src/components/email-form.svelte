@@ -26,7 +26,7 @@
 
 <form on:submit={onSubmit} class="container">
     <div class="input-group">
-        <input class="input" type="email" id="email" name="email" placeholder="computerguildfan@gameclub.com" disabled={submitting} />
+        <input class="input" type="email" id="email" name="email" placeholder="computerguildfan@gameclub.com" disabled={submitting} required />
         <button disabled={submitting} type="submit">
             {#if submitting}
                 <Loader2 size="1.5rem" class="loader" />
