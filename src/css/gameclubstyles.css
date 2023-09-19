@@ -750,6 +750,10 @@ background-repeat: no-repeat;
     line-height: 50px;
     padding-bottom: 40px;
   }
+  
+  input {
+    width: 350px;
+  }
 
   .navbar {
     background-color: #333;
