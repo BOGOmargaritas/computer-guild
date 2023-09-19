@@ -132,7 +132,7 @@
     }
 
     .error {
-        font-size: 18px;
+        font-size: 14px;
         color: #FBEFDA;
     }
 </style>
