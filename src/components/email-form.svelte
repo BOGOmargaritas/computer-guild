@@ -141,4 +141,12 @@
         font-size: 14px;
         color: #FBEFDA;
     }
+    
+    @media only screen and (max-width: 1024px) {
+    input {
+        width: 450px;
+        height: 4rem;
+        font-size: 2rem;    
+    }
+}
 </style>

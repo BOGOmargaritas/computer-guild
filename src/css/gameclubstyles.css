@@ -752,7 +752,8 @@ background-repeat: no-repeat;
   }
   
   input {
-    width: 350px;
+    width: 550px;
+    height: 5rem;
   }
 
   .navbar {
