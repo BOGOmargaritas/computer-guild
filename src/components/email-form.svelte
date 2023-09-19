@@ -66,9 +66,10 @@
 
     input {
         flex-shrink: 1;
+        width: 250px;
         height: 3rem;
         padding-left: 1rem;
-        padding-right: 5rem;
+        padding-right: 1rem;
         font-size: 1rem;
         line-height: 2;
         line-height: 1.5rem;
