@@ -1,5 +1,6 @@
 <script lang="ts">
-    let errorMessage = "";
+    let formError = false;
+    let formMessage = "";
     let submitting = false;
 
     const onSubmit = async (e: SubmitEvent) => {
@@ -12,11 +13,20 @@
             body: formData
         });
         const data = await response.json();
+
         if (data.error) {
-            errorMessage = data.message;
+            formError = true;
         } else {
-            errorMessage = "";
+            formError = false;
         }
+
+        if (data.message) {
+            formMessage = data.message;
+        } else {
+            formMessage = "";
+        }
+
+        console.log({ formError });
 
         submitting = false;
     };
@@ -43,7 +53,7 @@
             Subscribe
         </button>
     </div>
-    <p class="error">{errorMessage}</p>
+    <p class={formError && "error"}>{formMessage}</p>
 </form>
 
 <style scoped>
@@ -85,7 +95,7 @@
         border-width: 1px;
         border-radius: var(--rounded-btn, 0.5rem);
     }
-    
+
     input::placeholder {
         color: #ccc;
         width: 100%;
