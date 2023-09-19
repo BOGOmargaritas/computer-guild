@@ -66,7 +66,7 @@
 
     input {
         flex-shrink: 1;
-        width: 16rem;
+        width: 250px;
         height: 3rem;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -75,6 +75,10 @@
         line-height: 1.5rem;
         border-width: 1px;
         border-radius: var(--rounded-btn, 0.5rem);
+    }
+    
+    input:placeholder {
+        width: 100%
     }
 
     button {
