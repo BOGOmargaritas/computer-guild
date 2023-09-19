@@ -22,8 +22,8 @@ export const POST: APIRoute = async ({ request }) => {
         });
     } catch (e) {
         console.log({ e });
-        return new Response(JSON.stringify({ message: "Email already exists", error: true }));
+        return new Response(JSON.stringify({ message: "You were already subscribed!", error: true }));
     }
 
-    return new Response(JSON.stringify({ message: "Email added successfully" }));
+    return new Response(JSON.stringify({ message: "Thanks! You are subscribed!" }));
 };

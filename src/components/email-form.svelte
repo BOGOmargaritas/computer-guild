@@ -41,7 +41,7 @@
             Subscribe
         </button>
     </div>
-    <p class={formError && "error"}>{formMessage}</p>
+    <p class={formError ? "error" : "success"}>{formMessage}</p>
 </form>
 
 <style scoped>
@@ -145,11 +145,30 @@
         color: #fbefda;
     }
     
+    .success {
+        font-size: 14px;
+        color: #fbefda;
+    }
+    
     @media only screen and (max-width: 1024px) {
     input {
         width: 450px;
         height: 4rem;
         font-size: 2rem;    
+    }
+    
+    button {
+        font-size: 1.5rem;
+    }
+    
+    .error {
+        font-size: 18px;
+        color: #fbefda;
+    }
+    
+    .success {
+        font-size: 18px;
+        color: #fbefda;
     }
 }
 </style>
