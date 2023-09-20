@@ -57,7 +57,7 @@ sub {
   width: 40%;
   display: flex;
   margin: auto;
-  margin-bottom: -10px;
+  margin-bottom: -0px;
   margin-top: 40px;
   user-select: none;
 }
