@@ -220,7 +220,7 @@ sub {
   transform: scale(1.05) rotate(1deg);
 }
 .projcard:hover .projcard-bar {
-  width: 70px;
+  width: 180px;
 }
 .projcard-textbox {
   position: absolute;
@@ -274,7 +274,7 @@ sub {
 }
 .projcard-bar {
   left: -2px;
-  width: 50px;
+  width: 130px;
   height: 5px;
   margin: 10px 0;
   border-radius: 5px;
@@ -887,11 +887,13 @@ background-repeat: no-repeat;
     line-height: 40px;
     letter-spacing: .05px;
     word-spacing: 0.1px;
+    margin-top: -5px;
   }
   
   .projcard-subtitle {
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: -5px;
   }
   
   .projcard-description {
