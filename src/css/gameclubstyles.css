@@ -95,6 +95,41 @@ sub {
   height: 10%;
 }
 
+.membername {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: -0px;
+  user-select: none;
+}
+
+.memberblock {
+  width: 40%;
+  padding: 5%;
+  max-width: 300px;
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+
+.memberblock li {
+  color: #bbb;
+  line-height: 15px;
+  padding-top: 20px;
+  font-size: 15px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  padding-left: 15%;
+}
+
+.memberblock p {
+  padding-left: 15%
+}
+
+.memberimg {
+  width: 100%;
+  border-radius: 1000px;
+  padding-top: 10px;
+}
+
 .gameinfo .title {
   font-size: 50px;
   line-height: 40px;
@@ -1039,6 +1074,44 @@ background-repeat: no-repeat;
    
    .sub {
      font-size: 18px;
+   }
+   
+   .membername {
+     width: 80%;
+     display: flex;
+     margin: auto;
+     margin-bottom: -0px;
+     user-select: none;
+   }
+   
+   .memberblock {
+     width: 100%;
+     padding: 5%;
+     max-width: 100%;
+     font-size: 35px;
+     padding-bottom: 100px;
+   }
+   
+   .memberblock li {
+     color: #bbb;
+     line-height: 30px;
+     padding-top: 0px;
+     font-size: 35px;
+     font-family: 'Bricolage Grotesque', sans-serif;
+     padding-left: 22%;
+   }
+   
+   .memberblock p {
+     padding-left: 22%;
+     padding-bottom: 20px;
+     margin-top: -20px;
+   }
+   
+   .memberimg {
+     width: 100%;
+     border-radius: 1000px;
+     padding-top: 10px;
+     padding-bottom: 30px;
    }
   
 }

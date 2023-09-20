@@ -1,0 +1,73 @@
+---
+import Layout from "../../layouts/gameclublayout.astro";
+import Card from "../../components/card.astro";
+import EmailForm from "../../components/email-form.svelte";
+const games = await Astro.glob("../../content/games/*.md");
+games.sort((a, b) => (b.frontmatter.subtitle && a.frontmatter.subtitle ? b.frontmatter.subtitle.localeCompare(a.frontmatter.subtitle) : null));
+---
+
+<Layout title="about">
+    <div style="padding-bottom: 50px;">
+        <div style="margin-bottom: 50px;">
+            <div class="card-wrapper">
+                <div class="topgraphicbox">
+                    <div class="gamebox">
+                        <div class="infopagehead"><img src="/members.png" style="margin-bottom: -25px;" /></div>
+                        <div class="abouttext" style="padding-top: 0px; padding-bottom: 10px; width: 90%; margin: auto;">
+                            <p class="sub" style="text-align: center; color: #bbb">
+                                The Computer Guild Game Club™ consists of four members.
+                            </p>
+                            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                            <div class="memberblock">
+                                <img src="/about/justin.png" class="membername" />
+                                <img src="/j.png" class="memberimg">
+                                    <li>Aquarius</li>
+                                    <li>Game Club Player</li>
+                                    <li>Sensitive to ugly colors</li><br>
+                                    <p>Top 3 Video Games</p>
+                                    <li style="margin-top: -25px;">Earthbound</li>
+                                    <li>Diablo 2</li>
+                                    <li>Maplestory</li>
+                                </p>
+                            </div>
+                            <div class="memberblock">
+                                <img src="/about/cullen.png" class="membername" />
+                                <img src="/c.jpg" class="memberimg">
+                                    <li>Pisces</li>
+                                    <li>Game Club Player</li>
+                                    <li>Dislikes 2D games</li><br>
+                                    <p>Top 3 Video Games</p>
+                                    <li style="margin-top: -25px;">Persona 4</li>
+                                    <li>Dark Souls</li>
+                                    <li>Metal Gear Solid 3</li>
+                            </div>
+                            <div class="memberblock">
+                                <img src="/about/patrick.png" class="membername" />
+                                <img src="/p.jpg" class="memberimg">
+                                    <li>Aquarius</li>
+                                    <li>Game Club Player</li>
+                                    <li>Open-minded video game player</li><br>
+                                    <p>Top 3 Video Games</p>
+                                    <li style="margin-top: -25px;">Katamari Damacy</li>
+                                    <li>SimCity 4</li>
+                                    <li>Pokemon Renegade Platinum</li>
+                            </div>
+                            <div class="memberblock">
+                                <img src="/about/brandon.png" class="membername" />
+                                <img src="/b.jpg" class="memberimg">
+                                    <li>Sagittarius</li>
+                                    <li>Game Club Listener</li>
+                                    <li>Just loves music</li><br>
+                                    <p>Top 3 Video Game Soundtracks</p>
+                                    <li style="margin-top: -25px;">Jet Set Radio Future</li>
+                                    <li>Halo 2</li>
+                                    <li>Katamari Damacy</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</Layout>
