@@ -514,12 +514,30 @@ background-repeat: no-repeat;
      margin: 20px 10px 20px 180px;
      filter: brightness(0.7);
    }
+     
+     .gccontact {
+       transition: all .4s ease-in-out;
+       width: 130px;
+       padding-top: 10px;
+       margin-left: 60px;
+       }
+   
+   .gccontact img {
+      width: 130px;
+    }
+      
+    .gccontact:hover {
+      transform-origin: center;
+      transform: scale(95%);
+      margin: 20px 10px 20px 60px;
+      filter: brightness(0.7);
+    }
     
     .gchome {
       transition: all .4s ease-in-out;
       width: 130px;
       padding-top: 10px;
-      margin-left: 60px;
+      margin-left: 180px;
       }
   
   .gchome img {
@@ -614,10 +632,24 @@ background-repeat: no-repeat;
   .gcmembers:hover {
     margin: 5px 0px 5px 220px;
   }
+   
+   .gccontact {
+      width: 80px;
+      margin-left: 100px;
+      margin-top: -20px;
+    }
+   
+   .gccontact img {
+      width: 80px;
+    }
+    
+    .gccontact:hover {
+      margin: 10px 10px 0px 100px;
+    }
  
  .gchome {
     width: 80px;
-    margin-left: 100px;
+    margin-left: 220px;
     margin-top: -20px;
   }
  
@@ -725,12 +757,30 @@ background-repeat: no-repeat;
        margin: 2px 10px 2px 180px;
        filter: brightness(0.7);
      }
+       
+       .gccontact {
+         transition: all .4s ease-in-out;
+         width: 80px;
+         padding-top: 10px;
+         margin-left: 60px;
+         }
+     
+     .gccontact img {
+        width: 80px;
+      }
+        
+      .gccontact:hover {
+        transform-origin: center;
+        transform: scale(95%);
+        margin: 2px 10px 0px 60px;
+        filter: brightness(0.7);
+      }
       
       .gchome {
         transition: all .4s ease-in-out;
         width: 80px;
         padding-top: 10px;
-        margin-left: 60px;
+        margin-left: 180px;
         }
     
     .gchome img {
@@ -935,7 +985,7 @@ background-repeat: no-repeat;
   .gcabout:hover {
     transform-origin: center;
     transform: scale(95%);
-    margin: 0px 0px 0px 50px;
+    margin: 30px 0px 0px 50px;
     filter: brightness(0.7);
   }
   
@@ -943,7 +993,7 @@ background-repeat: no-repeat;
     transition: all .4s ease-in-out;
     position: absolute;
     width: 80px;
-    top: 120px;
+    top: 130px;
     margin-left: 200px;
   }
   
@@ -959,18 +1009,37 @@ background-repeat: no-repeat;
     filter: brightness(0.7);
   }  
   
+  .gccontact {
+    transition: all .4s ease-in-out;
+    position: absolute;
+    width: 80px;
+    top: 120px;
+    margin-left: 675px;
+  }    
+  
+  .gccontact img {
+    position: relative;
+    width: 80px;
+  }     
+  
+  .gccontact:hover {
+    transform-origin: center;
+    transform: scale(95%);
+    margin: -20px 0px 0px 675px;
+    filter: brightness(0.7);
+  }  
+  
   .gchome {
     transition: all .4s ease-in-out;
     position: absolute;
     width: 80px;
-    top: 0px;
-    margin-left: 700px;
+    top: 80px;
+    margin-left: 825px;
   }    
   
   .gchome img {
     position: relative;
     width: 80px;
-    margin-top: 60px;
   }     
   
   .gchome:hover {
