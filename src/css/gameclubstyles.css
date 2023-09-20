@@ -53,6 +53,18 @@ sub {
   line-height: 5px;
 }
 
+.email {
+  transition: all .4s ease-in-out;
+  width: 20%;
+  padding-bottom: 20px;
+}
+   
+ .email:hover {
+   transform-origin: center;
+   transform: scale(95%);
+   filter: brightness(0.7);
+ }
+
 .aboutimg {
   width: 40%;
   display: flex;
