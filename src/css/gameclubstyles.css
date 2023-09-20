@@ -479,75 +479,78 @@ background-repeat: no-repeat;
  }
   
   .gcabout {
-       width: 130px;
-       margin-left: 60px;
+       width: 100px;
+       margin-left: 80px;
        margin-top: 30px;
     transition: all .4s ease-in-out;
    }
  
  .gcabout img {
-   width: 130px;
+   width: 100px;
    padding-left: 0px;
  }
  
   .gcabout:hover {
     transform-origin: center;
     transform: scale(95%);
-    margin: 30px 10px 20px 60px;
+    margin: 30px 10px 10px 80px;
     filter: brightness(0.7);
   }
    
    .gcmembers {
      transition: all .4s ease-in-out;
-     width: 130px;
-     padding-top: 10px;
-     margin-left: 180px;
+     width: 100px;
+     padding-top: 0px;
+     margin-left: 200px;
+     margin-top: -15px;
      }
  
  .gcmembers img {
-    width: 130px;
+    width: 100px;
   }
   
    .gcmembers:hover {
      transform-origin: center;
      transform: scale(95%);
-     margin: 20px 10px 20px 180px;
+     margin: -10px 10px 5px 200px;
      filter: brightness(0.7);
    }
      
      .gccontact {
        transition: all .4s ease-in-out;
-       width: 130px;
-       padding-top: 10px;
-       margin-left: 60px;
+       width: 100px;
+       padding-top: 0px;
+       margin-left: 80px;
+       margin-top: -15px;
        }
    
    .gccontact img {
-      width: 130px;
+      width: 100px;
     }
       
     .gccontact:hover {
       transform-origin: center;
       transform: scale(95%);
-      margin: 20px 10px 20px 60px;
+      margin: -10px 10px 5px 80px;
       filter: brightness(0.7);
     }
     
     .gchome {
       transition: all .4s ease-in-out;
-      width: 130px;
-      padding-top: 10px;
-      margin-left: 180px;
+      width: 100px;
+      padding-top: 0px;
+      margin-left: 200px;
+      margin-top: -15px;
       }
   
   .gchome img {
-     width: 130px;
+     width: 100px;
    }
      
    .gchome:hover {
      transform-origin: center;
      transform: scale(95%);
-     margin: 20px 10px 20px 60px;
+     margin: -10px 10px 10px 200px;
      filter: brightness(0.7);
    }
    
@@ -622,7 +625,7 @@ background-repeat: no-repeat;
   .gcmembers {
     width: 80px;
     margin-left: 220px;
-    margin-top: -20px;
+    margin-top: -10px;
   }
   
   .gcmembers img {
@@ -630,13 +633,13 @@ background-repeat: no-repeat;
   }
  
   .gcmembers:hover {
-    margin: 5px 0px 5px 220px;
+    margin: 2px 0px 2px 220px;
   }
    
    .gccontact {
       width: 80px;
       margin-left: 100px;
-      margin-top: -20px;
+      margin-top: -10px;
     }
    
    .gccontact img {
@@ -644,13 +647,13 @@ background-repeat: no-repeat;
     }
     
     .gccontact:hover {
-      margin: 10px 10px 0px 100px;
+      margin: 2px 10px 2px 100px;
     }
  
  .gchome {
     width: 80px;
     margin-left: 220px;
-    margin-top: -20px;
+    margin-top: -10px;
   }
  
  .gchome img {
@@ -658,7 +661,7 @@ background-repeat: no-repeat;
   }
   
   .gchome:hover {
-    margin: 10px 10px 0px 100px;
+    margin: 2px 10px 0px 220px;
   }
 
   .topgraphicbox {
@@ -723,7 +726,7 @@ background-repeat: no-repeat;
   
   .gcabout {
          width: 80px;
-         margin-left: 60px;
+         margin-left: 70px;
          margin-top: 30px;
       transition: all .4s ease-in-out;
      }
@@ -736,15 +739,16 @@ background-repeat: no-repeat;
     .gcabout:hover {
       transform-origin: center;
       transform: scale(95%);
-      margin: 30px 10px 20px 60px;
+      margin: 30px 10px 5px 70px;
       filter: brightness(0.7);
     }
      
      .gcmembers {
        transition: all .4s ease-in-out;
        width: 80px;
-       padding-top: 10px;
-       margin-left: 180px;
+       padding-top: 0px;
+       margin-top: -15px;
+       margin-left: 170px;
        }
    
    .gcmembers img {
@@ -754,15 +758,16 @@ background-repeat: no-repeat;
      .gcmembers:hover {
        transform-origin: center;
        transform: scale(95%);
-       margin: 2px 10px 2px 180px;
+       margin: -10px 10px 3px 170px;
        filter: brightness(0.7);
      }
        
        .gccontact {
          transition: all .4s ease-in-out;
          width: 80px;
-         padding-top: 10px;
-         margin-left: 60px;
+         padding-top: 0px;
+         margin-top: -15px;
+         margin-left: 70px;
          }
      
      .gccontact img {
@@ -772,15 +777,16 @@ background-repeat: no-repeat;
       .gccontact:hover {
         transform-origin: center;
         transform: scale(95%);
-        margin: 2px 10px 0px 60px;
+        margin: -10px 10px 3px 70px;
         filter: brightness(0.7);
       }
       
       .gchome {
         transition: all .4s ease-in-out;
         width: 80px;
-        padding-top: 10px;
-        margin-left: 180px;
+        padding-top: 0px;
+        margin-top: -15px;
+        margin-left: 170px;
         }
     
     .gchome img {
@@ -790,7 +796,7 @@ background-repeat: no-repeat;
      .gchome:hover {
        transform-origin: center;
        transform: scale(95%);
-       margin: 2px 10px 0px 60px;
+       margin: -10px 10px 3px 170px;
        filter: brightness(0.7);
      }
      
@@ -985,7 +991,7 @@ background-repeat: no-repeat;
   .gcabout:hover {
     transform-origin: center;
     transform: scale(95%);
-    margin: 30px 0px 0px 50px;
+    margin: 27px 0px 0px 50px;
     filter: brightness(0.7);
   }
   
@@ -1045,7 +1051,7 @@ background-repeat: no-repeat;
   .gchome:hover {
     transform-origin: center;
     transform: scale(95%);
-    margin: -20px 0px 0px 700px;
+    margin: -20px 0px 0px 825px;
     filter: brightness(0.7);
   }   
   
