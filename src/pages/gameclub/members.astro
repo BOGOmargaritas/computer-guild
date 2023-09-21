@@ -6,7 +6,7 @@ const games = await Astro.glob("../../content/games/*.md");
 games.sort((a, b) => (b.frontmatter.subtitle && a.frontmatter.subtitle ? b.frontmatter.subtitle.localeCompare(a.frontmatter.subtitle) : null));
 ---
 
-<Layout title="about">
+<Layout title="members">
     <div style="padding-bottom: 50px;">
         <div style="margin-bottom: 50px;">
             <div class="card-wrapper">
