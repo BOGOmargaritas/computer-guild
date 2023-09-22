@@ -119,27 +119,38 @@ sub {
   width: 40%;
   padding: 5%;
   max-width: 300px;
-  font-size: 17px;
   padding-bottom: 50px;
 }
+ 
+ .memberblock p {
+   line-height: 15px;
+   padding: 1px 10px;
+ }
+ 
+ .memberblock h1 {
+   font-size: 18px;
+   font-weight: bold;
+   padding-top: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 10px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+ }
 
 .memberblock li {
   color: #bbb;
-  line-height: 15px;
-  padding-top: 20px;
+  line-height: 20px;
+  padding: 0px 10px;
   font-size: 15px;
   font-family: 'Bricolage Grotesque', sans-serif;
-  padding-left: 15%;
-}
-
-.memberblock p {
-  padding-left: 15%
 }
 
 .memberimg {
   width: 100%;
   border-radius: 1000px;
-  padding-top: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bbb
 }
 
 .gameinfo .title {
@@ -172,6 +183,45 @@ sub {
 .reviewlogo img {
   margin-left: 25%;
   width: 50%;
+}
+
+div.ff7{
+  border: solid 1px #424542;
+  box-shadow: 1px 1px #e7dfe7,
+              -1px -1px #e7dfe7,
+              1px -1px #e7dfe7,
+              -1px 1px #e7dfe7,
+              0 -2px #9c9a9c,
+              -2px 0 #7b757b,
+              0 2px #424542;
+  width: 80%;
+  paddint-right: 10px;
+  padding-top: 105px;
+  padding-bottom: 20px;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  background: #5663f6;
+  background: -moz-linear-gradient(top,  #5663f6 0%, #06004d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5663f6), color-stop(100%,#06004d));
+  background: -webkit-linear-gradient(top,  #5663f6 0%,#06004d 100%);
+  background: -o-linear-gradient(top,  #5663f6 0%,#06004d 100%);
+  background: -ms-linear-gradient(top,  #5663f6 0%,#06004d 100%);
+  background: linear-gradient(to bottom,  #5663f6 0%,#06004d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d',GradientType=0 );
+
+
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+div.ff7 *{
+  text-shadow: 2px 2px #212421,
+               1px 1px #212021;
+  margin: 5px 0;
 }
 
 /* GAMECLUB CARD CODE: */
@@ -1169,7 +1219,7 @@ background-repeat: no-repeat;
      width: 80%;
      display: flex;
      margin: auto;
-     margin-bottom: -0px;
+     margin-bottom: 0px;
      user-select: none;
    }
    
@@ -1180,27 +1230,38 @@ background-repeat: no-repeat;
      font-size: 35px;
      padding-bottom: 100px;
    }
+    
+    .memberblock p {
+      padding-top: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 30px;
+    }
+     
+     .memberblock h1 {
+       font-size: 45px;
+       font-weight: bold;
+       padding-top: 30px;
+       padding-bottom: 20px;
+       font-family: 'Bricolage Grotesque', sans-serif;
+     }
    
    .memberblock li {
      color: #bbb;
-     line-height: 30px;
+     line-height: 40px;
      padding-top: 0px;
      font-size: 35px;
      font-family: 'Bricolage Grotesque', sans-serif;
-     padding-left: 22%;
-   }
-   
-   .memberblock p {
-     padding-left: 22%;
-     padding-bottom: 20px;
-     margin-top: -20px;
    }
    
    .memberimg {
      width: 100%;
      border-radius: 1000px;
-     padding-top: 10px;
-     padding-bottom: 30px;
+   }
+   
+   div.ff7 {
+     margin-top: -140px;
+     padding-top: 145px;
    }
   
 }
