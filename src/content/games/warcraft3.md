@@ -13,10 +13,10 @@ graphic: /gameclub6-5.jpg
 <div style=""><span>Review Written by</span>
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
 alt="Justin"/> </div><br>
-<sub>date published: 10.4.23</sub></div>
+<sub>date published: 11.21.23</sub></div>
 
 <div style=""><span>Game Suggested By</span>
-<div class="reviewimg"><img src="/reviews/reviewcullen.png"
+<div class="reviewimg"><img src="/reviews/reviewjustin.png"
 alt="Patrick"/> </div><br></div>
 
 </div>
