@@ -3,7 +3,7 @@ slug: warcraft3
 title: "Warcraft III"
 subtitle: Round 6.5
 imageUrl: /card6-5.jpg
-description: Blizzard's third entry in their infamous RTS franchise
+description: Blizzard's third entry in their high fantasy, real-time strategy series
 tags: [RTS, PC]
 graphic: /gameclub6-5.jpg
 ---
