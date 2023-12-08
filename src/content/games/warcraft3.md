@@ -16,7 +16,7 @@ alt="Justin"/> </div><br>
 <sub>date published: 11.21.23</sub></div>
 
 <div style=""><span>Game Suggested By</span>
-<div class="reviewimg"><img src="/reviews/reviewjustin.png"
+<div class="reviewimg"><img src="/reviews/reviewcullen.png"
 alt="Patrick"/> </div><br></div>
 
 </div>
