@@ -76,7 +76,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 
 <div class="scores" style=" width: 100%;">
 	 
-<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/3star.png"><p>"Incredible amount of depth that I did not anticipate"</p></div>
+<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p>"Incredible amount of depth that I did not anticipate"</p></div>
 
 <div class="cstars" style="margin-top: -20px;"><img src="/reviews/dunce.png" style="margin-top: -100px; margin-bottom: -15px; z-index: 1; position: relative;"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"I didn't really play it that much"</p></div>
 
