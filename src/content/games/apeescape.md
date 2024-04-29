@@ -6,6 +6,7 @@ imageUrl: /card7.jpg
 description: Japan Studio's dynamic, DualShock collectathon
 tags: [Platformer, Collectathon, PlayStation]
 graphic: /gameclub7.jpg
+sortIndex: 7
 ---
 ---
 <div class="reviewinfo">

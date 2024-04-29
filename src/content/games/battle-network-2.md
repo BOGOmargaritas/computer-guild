@@ -6,6 +6,7 @@ imageUrl: /card2.jpg
 description: The second game in The Blue Bomber's GBA spinoff series
 tags: [RPG, Game Boy Advance]
 graphic: /gameclub2.jpg
+sortIndex: 2
 ---
 ---
 <div class="reviewinfo">

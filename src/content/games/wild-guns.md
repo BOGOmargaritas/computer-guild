@@ -6,6 +6,7 @@ imageUrl: /card1.jpg
 description: A wild west arcade-style shooter for the Super Nintendo developed by Natsume
 tags: ["Shooter", "Western", "Super Nintendo"]
 graphic: /gameclub.jpg
+sortIndex: 1
 --- 
 ---
 <div class="reviewinfo">

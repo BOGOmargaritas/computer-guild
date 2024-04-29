@@ -6,6 +6,7 @@ imageUrl: /card5.jpg
 description: Alucard finally meets his Dad eye to eye in Konami's premier Metroidvania
 tags: [Metroidvania, Gothic, Horror]
 graphic: /gameclub5.jpg
+sortIndex: 5
 ---
 ---
 <div class="reviewinfo">

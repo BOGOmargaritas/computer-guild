@@ -6,6 +6,7 @@ imageUrl: /card8.jpg
 description: Survival horror cult hit developed by pachinko artists
 tags: [Survival Horror, PlayStation]
 graphic: /gameclub8.jpg
+sortIndex: 8
 ---
 ---
 <div class="reviewinfo">

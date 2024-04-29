@@ -6,6 +6,7 @@ imageUrl: /card1.5.jpg
 description: A biological horror JRPG by Squaresoft set in late 90's Manhattan
 tags: [RPG, Horror, PlayStation]
 graphic: /gameclub1.5.jpg
+sortIndex: 1.5
 ---
 ---
 <div class="reviewinfo">

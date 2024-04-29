@@ -6,6 +6,7 @@ imageUrl: /card6.jpg
 description: Nintendo's experimental launch-window RTS for the gamecube
 tags: [RTS, Nintendo, Gamecube]
 graphic: /gameclub6.jpg
+sortIndex: 6
 ---
 ---
 <div class="reviewinfo">

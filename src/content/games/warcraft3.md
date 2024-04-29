@@ -6,6 +6,7 @@ imageUrl: /card6-5.jpg
 description: Blizzard's third entry in their high fantasy, real-time strategy series
 tags: [RTS, PC]
 graphic: /gameclub6-5.jpg
+sortIndex: 6.5
 ---
 ---
 <div class="reviewinfo">

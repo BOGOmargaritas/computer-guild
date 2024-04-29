@@ -6,6 +6,7 @@ imageUrl: /card3.jpg
 description: Link upgrades to 16-bit for his third console adventure
 tags: [Adventure, Super Nintendo, Game Boy Advance]
 graphic: /gameclub3.jpg
+sortIndex: 3
 ---
 ---
 <div class="reviewinfo">

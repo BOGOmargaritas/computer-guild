@@ -6,6 +6,7 @@ imageUrl: /card9.jpg
 description: Bethesda's third mainline entry in their open-world, fantasy RPG series
 tags: [RPG, PC]
 graphic: /gameclub9.jpg
+sortIndex: 9
 ---
 ---
 <div class="reviewinfo">
