@@ -28,10 +28,32 @@ The other guys haven’t wanted to write any reviews YET, but maybe in season 2 
 
 Listen (read), if you are reading this - thank you. It really means a lot to me. I am very grateful that you are reading my writing and I appreciate you. I feel really lucky to be able to do this with a group of friends and actually have people read my thoughts. So again - thank you, thank you.
 
-Anyways, enjoy the next month(ish) and we’ll be back with some HEAT for you - new graphics, new games, new IDEAS(?!?). Until then, you can check out any of the reviews you might have missed below:<br>
+Anyways, enjoy the next month(ish) and we’ll be back with some HEAT for you - new graphics, new games, new IDEAS(?!?). Until then, you can check out any of the reviews you might have missed below:<br><br>
 
 
-<div class="reviewsplit"><img src="/reviews/threehouses/students.jpg"
-alt="All the students from the game"/><div>
+<a href="https://guild.computer/gameclub/games/wild-guns"><div class="reviewsplit"><img src="/_recap/recap1-01.png"
+alt="Round 1"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/parasite-eve"><div class="reviewsplit"><img src="/_recap/recap1-02.png"
+alt="Round 1.5"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/battle-network-2"><div class="reviewsplit"><img src="/_recap/recap1-03.png"
+alt="Round 2"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/link-to-the-past"><div class="reviewsplit"><img src="/_recap/recap1-04.png"
+alt="Round 3"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/secret-of-monkey-island"><div class="reviewsplit"><img src="/_recap/recap1-05.png"
+alt="Round 4"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/symphony-of-the-night"><div class="reviewsplit"><img src="/_recap/recap1-06.png"
+alt="Round 5"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/pikmin"><div class="reviewsplit"><img src="/_recap/recap1-07.png"
+alt="Round 6"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/warcraft3"><div class="reviewsplit"><img src="/_recap/recap1-08.png"
+alt="Round 6.5"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/apeescape"><div class="reviewsplit"><img src="/_recap/recap1-09.png"
+alt="Round 7"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/silenthill"><div class="reviewsplit"><img src="/_recap/recap1-10.png"
+alt="Round 8"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/morrowind"><div class="reviewsplit"><img src="/_recap/recap1-11.png"
+alt="Round 9"/><div></a><br>
+<a href="https://guild.computer/gameclub/games/three-houses"><div class="reviewsplit"><img src="/_recap/recap1-12.png"
+alt="Round 10"/><div></a><br>
 
 </div>
