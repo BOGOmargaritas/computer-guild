@@ -2,7 +2,7 @@
 import Layout from "../../layouts/gameclublayout.astro";
 import Card from "../../components/card.astro";
 const games = await Astro.glob("../../content/games/*.md");
-games.sort((a, b) => (b.frontmatter.sortIndex && a.frontmatter.sortIndex ? parseInt(b.frontmatter.sortIndex, 10) - parseInt(a.frontmatter.sortIndex, 10) : null));
+games.sort((a, b) => (b.frontmatter.sortIndex && a.frontmatter.sortIndex ? parseFloat(b.frontmatter.sortIndex) - parseFloat(a.frontmatter.sortIndex) : null));
 ---
 
 <Layout title="gameclub">
