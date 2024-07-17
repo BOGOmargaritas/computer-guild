@@ -39,7 +39,7 @@ Pureya does not just have a bunch of mini games — it IS a bunch of mini games.
 
 When click on the app for the first time, Pureya gives you its opening cutscene. This is (not a joke) my absolute favorite thing about the game. In the cutscene, a child is playing with their toys on the floor — action figures, a pirate ship, a firetruck, etc. They turn to see a bowl of marbles high up on a shelf and move to grab the bowl. The bowl is just a little too high and the child spills the marbles all of the floor near their toys. This is the set up for the game — The mini games you play are from the kid’s imagination. A pirate ship dodging cannonball fire from an enemy boat, an RC car driving through a soccer field(?), a spaceship shooting meteors.
 <div class="reviewsplit"><img src="/reviews/pureya/marbles.gif"
-alt="Pikmin running away from an enemy" /><div>
+alt="Pureya marbles spilling out onto the floor" /><div>
 
 The visuals are cute (compliment), but I think they could have used another coat of polish to bring them to the next level. Everything feels like cutting edge design for a 2011 mobile game, but this game was released in 2021. I think the graphics all just need a little bit of ‘funk’ in them. Something to make them distinct from much of the generic design I see.
 
