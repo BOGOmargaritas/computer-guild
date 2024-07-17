@@ -9,7 +9,7 @@ graphic: /gameclub12.jpg
 sortIndex: 12
 ---
 
-<sub>For round 12, our theme was "Consolodated Crusades" meaning we were choosing games that were finish-able in under two hours. Because we knew the games would be short, we decided to pick one suggestion from each member to play. After playing, we each wrote a review of our own suggested game.</sub>
+For round 12, our theme was "Consolodated Crusades" meaning we were choosing games that were finish-able in under two hours. Because we knew the games would be short, we decided to pick one suggestion from each member to play. After playing, we each wrote a review of our own suggested game.<br><br>
 
 <div class="title">World of Horror</div>
 
@@ -63,7 +63,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 
 <div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/3star.png"><p>""</p></div>
 
-<div style="height: 225px; width: 100%;"></div>
+<div style="height: 250px; width: 100%;"></div>
 
 
 
@@ -124,7 +124,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 
 <div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/3star.png"><p>"Slippy doesn't f***, and they can't, and they don't want to."</p></div>
 
-<div style="height: 225px; width: 100%;"></div>
+<div style="height: 275px; width: 100%;"></div>
 
 
 
