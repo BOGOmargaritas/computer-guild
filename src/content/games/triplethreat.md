@@ -4,7 +4,7 @@ title: "Triple Threat"
 subtitle: Round 12
 imageUrl: /card12.jpg
 description: Three games picked by us all beatable in under two hours.
-tags: [Short]
+tags: [Short Games, Variety]
 graphic: /gameclub12.jpg
 sortIndex: 12
 ---
