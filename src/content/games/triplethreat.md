@@ -10,8 +10,11 @@ sortIndex: 12
 ---
 
 For round 12, our theme was "Consolodated Crusades" meaning we were choosing games that were finish-able in under two hours. Because we knew the games would be short, we decided to pick one suggestion from each member to play. After playing, we each wrote a review of our own suggested game.<br><br>
+[- World of Horror](#woh)<br>
+[- Star Fox](#starfox)<br>
+[- Franken](#franken)
 
-<div class="title">World of Horror</div>
+<div class="title" id="woh">World of Horror</div>
 
 ---
 
@@ -59,7 +62,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 	 
 <div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p style="">"Visually Incredible!"</p></div>
 
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p>""</p></div>
+<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"The vibes can't save this one."</p></div>
 
 <div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/3star.png"><p>""</p></div>
 
@@ -67,7 +70,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 
 
 
-<div class="title" style="margin-top: 30px;">Star Fox</div>
+<div class="title" id="starfox" style="margin-top: 30px;">Star Fox</div>
 
 ---
 
@@ -128,7 +131,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 
 
 
-<div class="title" style="margin-top: 30px;">Franken</div>
+<div class="title" id="franken" style="margin-top: 30px;">Franken</div>
 
 ---
 
