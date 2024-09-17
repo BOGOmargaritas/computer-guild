@@ -180,6 +180,20 @@ sub {
   border-radius: 10px;
 }
 
+.reviewsplit2 {
+  display: flex;
+}
+
+.reviewsplit2 img.left {
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+}
+
+.reviewsplit2 img.right {
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+}
+
 .reviewlogo img {
   margin-left: 25%;
   width: 50%;
