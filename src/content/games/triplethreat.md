@@ -64,7 +64,7 @@ alt="Scores" style="z-index: 0; position: relative;"/><div>
 
 <div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"The vibes can't save this one."</p></div>
 
-<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/3star.png"><p>""</p></div>
+<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/3star.png"><p>"When the DOOM meter hits 100%, you should get to play as the DOOM guy."</p></div>
 
 <div style="height: 250px; width: 100%;"></div>
 
