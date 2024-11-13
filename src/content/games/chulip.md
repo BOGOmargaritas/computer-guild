@@ -9,6 +9,7 @@ graphic: /gameclub13.jpg
 sortIndex: 13
 ---
 ---
+
 <div class="reviewinfo">
 	
 <div style=""><span>Review Written by</span>
@@ -18,11 +19,13 @@ alt="Justin"/> </div><br>
 
 <div style=""><span>Game Suggested By</span>
 <div class="reviewimg"><img src="/reviews/reviewjustin.png"
-alt="Cullen"/> </div><br></div>
+alt="Justin"/> </div><br></div>
 
 </div>
 
 ---
+<sub>For round 13, the theme was 'Abstract Anomaly'. This theme had us all suggesting weird, more abstract games. Games that maybe live outside of people's idea of a normal video game. In my opinion, we had some great games to choose from here.</sub>
+
 
 A cold fall night, windows down, streetlights periodically illuminating our faces as we drive west on 18 mile. My high school crush’s 2001 Dodge Neon smelling like hazelnut coffee creamer & perfume. Her and I are headed to the CVS where my car is parked. She is dropping me off after catching the second half of ‘Sinister’ (2012) with me at the movie theater where she worked. We had been talking and flirting with each other for a while at this point and I definitely wanted to ask her to be my girlfriend, but I was terrified of messing something up and being rejected. I had never dated anyone before, so I wasn’t sure how to take things to the next step. With CVS rapidly approaching, our night together was coming to a close. She pulls into the parking lot and parks next to my car. We look at each other under the soft glow of the Dodge Neon’s dome lights and with two hundred million thoughts racing through my head all at the same moment, I am paralyzed. I give her a hug, say goodbye, and step out of her car. As she drives out of the parking lot, I start to walk over to my car, disappointed in myself. I give a pathetic, little tug on the handle of the car door and it doesn’t budge. I reach for my keys and they aren’t in my pocket… I’ve left them in her glovebox on accident. Quickly, I call her and sheepishly ask if she can turn around so I can get my car keys. A few minutes later, she pulls back into the parking lot and steps out of her car with my keys. Embarrassed, I apologize and as she places the keys into my hand, she leans in and kisses me under the parking lot lights. For what probably lasted 1-2 seconds, I was so stunned from my first kiss that it felt like time stopped completely. She told me goodnight and then drove away. I sat in my car, the happiest I had ever been in my entire life and very satisfied at how my first kiss turned out. In the next couple of days, I finally worked up the courage to ask her to be my girlfriend. I caught her after our painting class together and with my heart beating double time, slowly asked her the question that had been on my mind for the past few months. With a moment’s hesitation, she smiled, her eyes met mine, and she told me “no”.
 <br></br>
