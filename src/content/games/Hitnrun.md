@@ -65,10 +65,13 @@ alt="Scores" /><div>
 
 <div class="scores" style=" width: 100%;">
 	 
-<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"A caricature of GTA"</p></div>
+<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%; height: auto;"><img src="/reviews/scores/2star.png"><p>"A caricature of GTA"</p></div>
 
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"Take off those rose-tinted glasses"</p></div>
+<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%; height: auto;"><img src="/reviews/scores/2star.png"><p>"Take off those rose-tinted glasses"</p></div>
 
-<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"Eat my dust, dusteaters"</p></div>
+<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%; height: auto;"><img src="/reviews/scores/4star.png"><p>"Eat my dust, dusteaters"</p></div></div>
 
 </div>
+
+
+

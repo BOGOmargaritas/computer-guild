@@ -446,9 +446,99 @@ div.ff7 *{
  .topgraphicbox {
    max-width: 1000px;
  }
+ 
   
+  #grad1 {
+    height: 150px; 
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #6950ff); 
+    margin-top: 220px; 
+    margin-left: -50px;
+    padding-right: 100px;
+    width: 100% 
+  }
+  
+  #ost {
+     height: auto; 
+     background-color:#6950ff; 
+     margin-left: -50px;
+     padding-right: 100px;
+     width: 100% ;
+     padding-bottom: 30px;
+   }
+   
+   #ost img {
+     width: 120%;
+     padding-bottom: 20px;
+     margin-top: -30px;
+   }
+   
+   #osttext {
+     max-width: 90%; 
+     background-color:#6950ff; 
+     padding-left: 100px; 
+     margin:auto; 
+     align-content: center;
+     padding-bottom: 30px;
+   }
+   
+   #grad2 {
+      height: 100px; 
+      background-image: linear-gradient(to bottom, #6950ff, rgba(100,0,255,0)); 
+      margin-left: -50px;
+      padding-right: 100px;
+      margin-bottom: -180px;
+      padding-bottom: 20px;
+      width: 100% 
+    }
+ 
+ 
 }
 
+@media only screen and (max-width: 1800px) {
+  #grad1 {
+    height: 150px; 
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #6950ff); 
+    margin-top: 220px; 
+    margin-left: -5.5%;
+    padding-right: 11.2%;
+    width: 100% 
+  }
+  
+  #ost {
+     height: auto; 
+     background-color:#6950ff; 
+     margin-left: -5.5%;
+     padding-right: 11.2%;
+     width: 100% ;
+     padding-bottom: 30px;
+   }
+   
+   #ost img {
+     width: 120%;
+     padding-bottom: 20px;
+     margin-top: -30px;
+   }
+   
+   #osttext {
+     max-width: 90%; 
+     background-color:#6950ff; 
+     padding-left: 100px; 
+     margin:auto; 
+     align-content: center;
+     padding-bottom: 30px;
+   }
+   
+   #grad2 {
+      height: 100px; 
+      background-image: linear-gradient(to bottom, #6950ff, rgba(100,0,255,0)); 
+      margin-left: -5.5%;
+      padding-right: 11.2%;
+      margin-bottom: -180px;
+      padding-bottom: 20px;
+      width: 100% 
+    }
+  
+}
 
 @media only screen and (min-width: 1024px) {
   
@@ -749,6 +839,51 @@ background-repeat: no-repeat;
     margin-top: -10px;
   }     
   
+  
+   
+   #grad1 {
+     height: 150px; 
+     background-image: linear-gradient(to bottom, rgba(255,0,0,0), #6950ff); 
+     margin-top: 220px; 
+     margin-left: -5.5%;
+     padding-right: 11.2%;
+     width: 100% 
+   }
+   
+   #ost {
+      height: auto; 
+      background-color:#6950ff; 
+      margin-left: -5.5%;
+      padding-right: 11.2%;
+      width: 100% ;
+      padding-bottom: 30px;
+    }
+    
+    #ost img {
+      width: 120%;
+      padding-bottom: 20px;
+      margin-top: -30px;
+    }
+    
+    #osttext {
+      max-width: 90%; 
+      background-color:#6950ff; 
+      padding-left: 100px; 
+      margin:auto; 
+      align-content: center;
+      padding-bottom: 30px;
+    }
+    
+    #grad2 {
+       height: 100px; 
+       background-image: linear-gradient(to bottom, #6950ff, rgba(100,0,255,0)); 
+       margin-left: -5.5%;
+       padding-right: 11.2%;
+       margin-bottom: -180px;
+       padding-bottom: 20px;
+       width: 100% 
+     }
+  
 }
 
 @media only screen and (max-width: 1300px) {
@@ -904,6 +1039,50 @@ background-repeat: no-repeat;
    .reviewinfo sub {
      font-size: 13px;
    }
+   
+    
+    #grad1 {
+      height: 150px; 
+      background-image: linear-gradient(to bottom, rgba(255,0,0,0), #6950ff); 
+      margin-top: 170px; 
+      margin-left: -5.5%;
+      padding-right: 11.2%;
+      width: 100% 
+    }
+    
+    #ost {
+       height: auto; 
+       background-color:#6950ff; 
+       margin-left: -5.5%;
+       padding-right: 11.2%;
+       width: 100% ;
+       padding-bottom: 30px;
+     }
+     
+     #ost img {
+       width: 120%;
+       padding-bottom: 20px;
+       margin-top: -50px;
+     }
+     
+     #osttext {
+       max-width: 90%; 
+       background-color:#6950ff; 
+       padding-left: 100px; 
+       margin:auto; 
+       align-content: center;
+       padding-bottom: 30px;
+     }
+     
+     #grad2 {
+        height: 100px; 
+        background-image: linear-gradient(to bottom, #6950ff, rgba(100,0,255,0)); 
+        margin-left: -5.5%;
+        padding-right: 11.2%;
+        margin-bottom: -180px;
+        padding-bottom: 20px;
+        width: 100% 
+      }
 }
 
 @media only screen and (max-width: 1024px) {
