@@ -1,6 +1,6 @@
 ---
 title: Parasite Eve
-slug: parasite-eve
+slug: parasite-evefake
 subtitle: Round 1.5
 imageUrl: /card1.5.jpg
 description: A biological horror JRPG by Squaresoft set in late 90's Manhattan
@@ -9,9 +9,21 @@ graphic: /gameclub1.5.jpg
 sortIndex: 1.5
 tracks:
   [
-    { name: "Kyrie", artist: "Yoko Shimomura", url: "/audio/parasiteeve/Kyrie.mp3" },
-    { name: "Memory III", artist: "Yoko Shimomura", url: "/audio/parasiteeve/Memory_III.mp3" },
-    { name: "Waiting for Something Awakens", artist: "Yoko Shimomura", url: "/audio/parasiteeve/Waiting_For_Something_Awakens.mp3" }
+    {
+      name: "Kyrie",
+      artist: "Yoko Shimomura",
+      url: "/audio/parasiteeve/Kyrie.mp3",
+    },
+    {
+      name: "Memory III",
+      artist: "Yoko Shimomura",
+      url: "/audio/parasiteeve/Memory_III.mp3",
+    },
+    {
+      name: "Waiting for Something Awakens",
+      artist: "Yoko Shimomura",
+      url: "/audio/parasiteeve/Waiting_For_Something_Awakens.mp3",
+    },
   ]
 ---
 
