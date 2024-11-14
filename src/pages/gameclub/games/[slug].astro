@@ -1,37 +1,41 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../../../layouts/gameclublayout.astro";
+import { AudioPlayer } from "../../../components/audio-player";
 
 export async function getStaticPaths() {
-    const games = await Astro.glob("../../../content/games/*.md");
+  const allGames = await getCollection("games");
 
-    return games.map(game => ({
-        params: {
-            slug: game.frontmatter.slug
-        },
-        props: {
-            game
-        }
-    }));
+  return allGames.map((game) => ({
+    params: {
+      slug: game.slug
+    },
+    props: {
+      game
+    }
+  }));
 }
 
-const { frontmatter, Content } = Astro.props.game;
+const { game } = Astro.props;
+const { Content } = await game.render();
 ---
 
-<Layout title={frontmatter.title}>
-    <div style="padding-bottom: 50px;">
-        <div style="margin-bottom: 50px;">
-            <div class="card-wrapper">
-                <div class="topgraphicbox">
-                    <div class="gamebox">
-                        <div class="gamegraphic"><img src={frontmatter.graphic} /></div>
-                        <div class="gameinfo">
-                            <div class="title">{frontmatter.title}</div>
-                            <h5>{frontmatter.description}</h5>
-                            <p><Content /></p>
-                        </div>
-                    </div>
-                </div>
+<Layout title={game.data.title}>
+  <div style="padding-bottom: 50px;">
+    <div style="margin-bottom: 50px;">
+      <div class="card-wrapper">
+        <div class="topgraphicbox">
+          <div class="gamebox">
+            <div class="gamegraphic"><img src={game.data.graphic} /></div>
+            <div class="gameinfo">
+              <div class="title">{game.data.title}</div>
+              <h5>{game.data.description}</h5>
+              <p><Content /></p>
+              {game.data.tracks ? <AudioPlayer tracks={game.data.tracks} client:load /> : null}
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </Layout>
