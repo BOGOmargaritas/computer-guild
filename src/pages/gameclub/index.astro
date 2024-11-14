@@ -1,14 +1,16 @@
 ---
 import Layout from "../../layouts/gameclublayout.astro";
 import Card from "../../components/card.astro";
-const games = await Astro.glob("../../content/games/*.md");
-games.sort((a, b) => (b.frontmatter.sortIndex && a.frontmatter.sortIndex ? parseFloat(b.frontmatter.sortIndex) - parseFloat(a.frontmatter.sortIndex) : null));
+import { getCollection } from "astro:content";
+
+const games = await getCollection("games");
+games.sort((a, b) => (b.data.sortIndex && a.data.sortIndex ? parseFloat(b.data.sortIndex) - parseFloat(a.data.sortIndex) : null));
 ---
 
 <Layout title="gameclub">
-    <div class="topcardbox">
-        <div class="projcard-container" style="">
-            {games.map(game => <Card {...game} />)}
-        </div>
+  <div class="topcardbox">
+    <div class="projcard-container" style="">
+      {games.map((game) => <Card {...game} />)}
     </div>
+  </div>
 </Layout>

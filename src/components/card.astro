@@ -1,19 +1,19 @@
 ---
 const game = Astro.props;
-const link = game.frontmatter.slug ? "/gameclub/games/" + game.frontmatter.slug : "#";
+const link = game.slug ? "/gameclub/games/" + game.slug : "#";
 ---
 
 <div class="projcard projcard-blue">
     <a href={link}>
         <div class="projcard-innerbox">
-            <img class="projcard-img" src={game.frontmatter.imageUrl} />
+            <img class="projcard-img" src={game.data.imageUrl} />
             <div class="projcard-textbox">
-                <div class="projcard-title">{game.frontmatter.title}</div>
-                <div class="projcard-subtitle">{game.frontmatter.subtitle}</div>
+                <div class="projcard-title">{game.data.title}</div>
+                <div class="projcard-subtitle">{game.data.subtitle}</div>
                 <div class="projcard-bar"></div>
-                <div class="projcard-description">{game.frontmatter.description}</div>
+                <div class="projcard-description">{game.data.description}</div>
                 <div class="projcard-tagbox">
-                    {game.frontmatter.tags && game.frontmatter.tags.map(tag => <span class="projcard-tag">{tag}</span>)}
+                    {game.data.tags && game.data.tags.map(tag => <span class="projcard-tag">{tag}</span>)}
                 </div>
             </div>
         </div>
