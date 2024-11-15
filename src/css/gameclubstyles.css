@@ -620,7 +620,8 @@ div.ff7 * {
 
 @media only screen and (min-width: 1024px) {
   li {
-    line-height: 40px;
+    line-height: 20px;
+    padding-bottom: 0px;
   }
 
   .title {
@@ -1193,7 +1194,7 @@ div.ff7 * {
   li {
     font-size: 35px;
     line-height: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
   }
 
   input {
