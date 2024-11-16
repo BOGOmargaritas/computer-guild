@@ -63,7 +63,8 @@ That navy blue GameBoy SP slams shut and your friend looks up at you with one ey
 <li><b><a>PET</a></b> - Short for a ‘Personal Terminal’, these are small, portable, electronic devices that house a person’s NetNAVI
 <li><b><a>Jacking In</a></b> - When a human sends their NetNAVI into The Net
 <li><b><a>Chips</a></b> - Powerful moves for Mega Man to use during battle (attacks, healing, special)
-<li><b><a>Chip Deck</a></b>- A deck containing a limited number of chips for Mega Man to use during battle</li><br><br>
+<li><b><a>Chip Deck</a></b>- A deck containing a limited number of chips for Mega Man to use during battle</li>
+<br><br>
 
 <div class="reviewsplit"><img src="/reviews/battlenetwork2/cybergas.gif"
 alt="Cybergas"/><div>

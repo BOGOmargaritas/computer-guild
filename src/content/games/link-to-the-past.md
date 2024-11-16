@@ -48,19 +48,3 @@ With A Link to the Past in the rear view, the only hole in my Zelda knowledge is
 <div class="reviewsplit"><img src="/reviews/linktothepast/end.gif"
 alt="End"/><div>
 <br><br>
-
-<div class="reviewsplit"><img src="/reviews/scores/scoresoutline.png"
-alt="Scores" /><div>
-
-<br>
-<br>
-
-<div class="scores" style=" width: 100%;">
-	 
-<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/5star.png"><p>"Legend of Zelda peaked early (until BotW)"</p><p>"Could see myself living in this version of Kakariko Village"</p></div>
-
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/3star.png"><p>"Change all the battles to turn-based"</p><p>"Z-Axis needed"</p></div>
-
-<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/5star.png"><p>"Hard to believe this game was made in 1992"</p></div>
-
-</div>

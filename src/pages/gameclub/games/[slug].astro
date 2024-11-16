@@ -26,6 +26,8 @@ const ostRender = await ost?.render();
 
 const GameContent = gameRender.Content;
 const OstContent = ostRender?.Content;
+
+const hasDunce = game.data.scores?.some((review) => review.dunce);
 ---
 
 <Layout title={game.data.title}>
@@ -42,7 +44,7 @@ const OstContent = ostRender?.Content;
                 {game.data.headerInfo && <ReviewHeader {...game.data.headerInfo} />}
                 <GameContent />
                 {game.data.scores && 
-                  <div class="reviewsplit">
+                  <div id="scores-wrapper" class="reviewsplit" style={hasDunce ? "margin-top: 50px" : ""}>
                     <img src="/reviews/scores/scoresoutline.png" alt="Scores" />
                     <ReviewScores reviews={game.data.scores} />
                   </div>
@@ -77,3 +79,11 @@ const OstContent = ostRender?.Content;
     </div>
   </div>
 </Layout>
+
+<style>
+  #scores-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+</style>
