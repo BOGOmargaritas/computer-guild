@@ -1,0 +1,51 @@
+---
+export interface Props {
+  reviews: {
+    reviewerSrc: string;
+    score: number;
+    taglines: string[];
+    dunce?: boolean;
+  }[];
+}
+
+const { reviews } = Astro.props;
+---
+
+<div class="scores">
+  {
+    reviews.map((review) => (
+      <div class="stars">
+        {review.dunce && <img src="/reviews/dunce.png" style="margin-top: -100px; margin-bottom: -15px; z-index: 1; position: relative;" />}
+        <img src={review.reviewerSrc} class="reviewer-img" />
+        <img src={`/reviews/scores/${review.score}star.png`} />
+        {review.taglines.map((tagline) => (
+          <p>"{tagline}"</p>
+        ))}
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .scores {
+      flex-direction: column;
+    }
+  }
+
+  .stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reviewer-img {
+    margin-right: -50%;
+  }
+</style>

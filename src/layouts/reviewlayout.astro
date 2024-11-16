@@ -1,0 +1,36 @@
+---
+import { AudioPlayer, type AudioPlayerProps } from "../components/audio-player";
+import ReviewHeader, { type Props as ReviewHeaderProps } from "../components/reviews/review-header.astro";
+import ReviewScores, { type Props as ReviewScoresProps } from "../components/reviews/review-scores.astro";
+
+type Props = {
+  headerInfo: ReviewHeaderProps;
+  scores: ReviewScoresProps["reviews"];
+  tracks: AudioPlayerProps["tracks"];
+};
+
+const { headerInfo, scores, tracks } = Astro.props;
+---
+
+<ReviewHeader {...headerInfo} />
+<slot name="review" />
+<br />
+<div class="reviewsplit">
+  <img src="/reviews/scores/scoresoutline.png" alt="Scores" />
+  <ReviewScores reviews={scores} />
+</div>
+<div id="grad1"></div>
+<div id="ost" style="background-color: #6950ff; height: auto;" class="reviewsplit">
+  <img src="/_ost2.png" alt="OST Logo" />
+</div>
+<div id="audiobg">
+  <div style="display: flex; justify-content: center;">
+    <div id="audiowidth">
+      <AudioPlayer tracks={tracks} client:load />
+    </div>
+  </div>
+</div>
+<div id="osttext">
+  <slot name="ost" />
+</div>
+<div id="grad2"></div>

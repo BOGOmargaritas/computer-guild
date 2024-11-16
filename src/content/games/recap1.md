@@ -1,7 +1,7 @@
 ---
 slug: recap1
 title: "Season 1 Recap"
-subtitle:
+subtitle: ""
 imageUrl: /_recap1card.jpg
 description: Waxing poetic about GameClub's S01.
 tags: [Recap]

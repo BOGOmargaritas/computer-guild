@@ -2,7 +2,7 @@ import { APlayer } from "aplayer-react";
 import "aplayer-react/dist/index.css";
 
 
-type AudioPlayerProps = {
+export type AudioPlayerProps = {
   tracks: { name: string; artist: string; url: string; cover?: string }[];
 };
 

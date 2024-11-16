@@ -6,24 +6,15 @@ imageUrl: /card11.jpg
 description: A minigame game made by Majorariatto
 tags: [Minigames, Mobile]
 graphic: /gameclub11.jpg
+headerInfo: { writtenBy: "Justin", publishedDate: "6.10.24", suggestedBy: "Patrick" }
+scores:
+  [
+    { reviewerSrc: "/reviews/reviewjustin.png", score: 2, taglines: ["The story was my favorite part"] },
+    { reviewerSrc: "/reviews/reviewcullen.png", score: 2, taglines: ["Not a lot of fundamental flaws, but did not spark joy"] },
+    { reviewerSrc: "/reviews/reviewpatrick.png", score: 4, taglines: ["I'm going to keep touching it"] }
+  ]
 sortIndex: 11
 ---
----
-<div class="reviewinfo">
-	
-<div style=""><span>Review Written by</span>
-<div class="reviewimg"><img src="/reviews/reviewjustin.png"
-alt="Justin"/> </div><br>
-<sub>date published: 6.10.24</sub></div>
-
-<div style=""><span>Game Suggested By</span>
-<div class="reviewimg"><img src="/reviews/reviewpatrick.png"
-alt="Patrick"/> </div><br></div>
-
-</div>
-
----
-
 
 <sub>For round 11, each GameClub member thought up different themes we could have for our game suggestions. The theme ‘Matryoshka Matriculation’ was randomly selected for round 11 essentially meaning each suggestion needed to be a game filled with mini games.</sub>
 
@@ -34,10 +25,10 @@ alt="Pureya Logo" style="border-radius: 20px;"/></div><br><br>
 
 ---
 
-
 Pureya does not just have a bunch of mini games — it IS a bunch of mini games. The only text in the entire game is the game’s logo. Once you hit play, the game presents a left button, a right button, and the game window. Pureya throws the player into mini game after mini game played with just the left & right button - each one lasting around 10 seconds. Each game’s goal is to collect marbles. Once a certain number of games have been played, Pureya brings the player to a pachinko machine where the player shoots their collected marbles and earns new mini games and/or character skins for their existing mini games. The gameplay loop, while not necessarily that ‘fun’, is pretty addicting due to how fast everything moves. Before you know it, you are hopping to a new mini game and after you spend all your marbles on the pachinko machine, Pureya immediately throws you into the next round.
 
 When click on the app for the first time, Pureya gives you its opening cutscene. This is (not a joke) my absolute favorite thing about the game. In the cutscene, a child is playing with their toys on the floor — action figures, a pirate ship, a firetruck, etc. They turn to see a bowl of marbles high up on a shelf and move to grab the bowl. The bowl is just a little too high and the child spills the marbles all of the floor near their toys. This is the set up for the game — The mini games you play are from the kid’s imagination. A pirate ship dodging cannonball fire from an enemy boat, an RC car driving through a soccer field(?), a spaceship shooting meteors.
+
 <div class="reviewsplit"><img src="/reviews/pureya/marbles.gif"
 alt="Pureya marbles spilling out onto the floor" /><div>
 
@@ -45,33 +36,15 @@ The visuals are cute (compliment), but I think they could have used another coat
 
 ---
 
-Unfortunately, Pureya lacks substance and many of the mini games equate to the same thing - dodge/shoot and collect marbles. That aside, it is impressive how addicting the game can be. It feels like the developer really made a point to have the marble collection be 1:1 and because of this, the games all feel very similar. If I were to improve anything about Pureya, I would add in mini games that feel entirely different. I think you could come up with some really interesting mini games that aren’t just ‘collect marble’, but maybe at the end of them, the player gets a set number of marbles for succeeding. 
+Unfortunately, Pureya lacks substance and many of the mini games equate to the same thing - dodge/shoot and collect marbles. That aside, it is impressive how addicting the game can be. It feels like the developer really made a point to have the marble collection be 1:1 and because of this, the games all feel very similar. If I were to improve anything about Pureya, I would add in mini games that feel entirely different. I think you could come up with some really interesting mini games that aren’t just ‘collect marble’, but maybe at the end of them, the player gets a set number of marbles for succeeding.
 
 While Pureya doesn’t have too much meat on its bones, it is pretty clear the game was made by a small team that is probably still cutting their teeth on game design. With this in mind, the game is pretty impressive, because I certainly could not make something like this with my current game design skills. If by some chance the person who came up with the idea of the marbles getting mixed in with the kid’s toys is reading this — I am a big fan.
+
 <div class="reviewsplit"><img src="/reviews/pureya/pureya.gif"
 alt="Pikmin running away from an enemy" /><div>
 
-
 I’ll be honest — this game didn’t distract me from my life worries for too long. But that’s okay! (maybe a good thing?) It felt good to write this review and think about a time when I would get lost in my imagination playing with toys. When my own worries weren’t as serious as they are now and when everything was just simpler.
-
-
 
 <div class="reviewsplit"><img src="/reviews/pureya/kid.jpg"
 alt="Pureya key art"/><div>
 <br><br>
-
-<div class="reviewsplit" style="z-index: 0; position: relative;"><img src="/reviews/scores/scoresoutline.png"
-alt="Scores" style="z-index: 0; position: relative;"/><div>
-
-<br>
-<br>
-
-<div class="scores" style=" width: 100%;">
-	 
-<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"The story was my favorite part"</p></div>
-
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"Not a lot of fundamental flaws, but did not spark joy"</p></div>
-
-<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"I'm going to keep touching it"</p></div>
-
-</div>

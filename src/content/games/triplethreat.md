@@ -7,6 +7,7 @@ description: Three games picked by us all beatable in under two hours.
 tags: [Short Games, Variety]
 graphic: /gameclub12.jpg
 sortIndex: 12
+nonStandard: true
 ---
 
 For round 12, our theme was "Consolodated Crusades" meaning we were choosing games that were finish-able in under two hours. Because we knew the games would be short, we decided to pick one suggestion from each member to play. After playing, we each wrote a review of our own suggested game.<br><br>

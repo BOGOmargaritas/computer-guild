@@ -6,33 +6,31 @@ imageUrl: /card4.jpg
 description: Guybrush Threepwood's first run-in with LeChuck and a Lucasfilm Games homerun
 tags: [Adventure, Point & Click, Humor]
 graphic: /gameclub4.jpg
+headerInfo: { writtenBy: "Justin", publishedDate: "9.15.23", suggestedBy: "Patrick" }
+scores:
+  [
+    { reviewerSrc: "/reviews/reviewjustin.png", score: 3, taglines: ["This game has no business making me grind for insults"] },
+    {
+      reviewerSrc: "/reviews/reviewcullen.png",
+      score: 3,
+      taglines: ["Hilarious game that does not respect the player", "I wish the game had stats"]
+    },
+    { reviewerSrc: "/reviews/reviewpatrick.png", score: 4, taglines: ["It still rules"] }
+  ]
 sortIndex: 4
----
----
-<div class="reviewinfo">
-	
-<div style=""><span>Review Written by</span>
-<div class="reviewimg"><img src="/reviews/reviewjustin.png"
-alt="Justin"/> </div><br>
-<sub>date published: 9.15.23</sub></div>
-
-<div style=""><span>Game Suggested By</span>
-<div class="reviewimg"><img src="/reviews/reviewpatrick.png"
-alt="Patrick"/> </div><br></div>
-
-</div>
-
 ---
 
 I’ve always been enamored with pirate history. Swashbuckling, deck swabbing, swill drinking pirates. They braved the high seas together with their crew of outlaws and took what wasn’t (necessarily) theirs. Edward Teach, William Kidd, Anne Bonny, Mary Read & John Rackham (to name a few). I read their stories when I was a kid and dreamed of what their life must have been like. Sailing the high seas for days, weeks, months at a time. Did they actually enjoy sailing? Or was piracy just a way to make a quick ‘piece of eight’? Luckily, Game Club played a game that gave me some more insight into what my favorite pirates what have been like in real life - a game by the name of <br>
+
 <div class="reviewlogo"><img src="/reviews/monkeyisland/title.gif"
 alt="Monkey Island Title Screen" style="border-radius: 20px;"/></div><br>
 
 ---
 
-The Secret of Monkey Island is a legendary point-and-click adventure game by LucasFilm Games. Monkey Island had a few people on its development team that would soon be seen as luminaries in the industry. One notable name that worked on the game is ‘Tim Schafer’, who has since created and led Double Fine Productions (Psychonauts, The Cave, Brütal Legend). 
+The Secret of Monkey Island is a legendary point-and-click adventure game by LucasFilm Games. Monkey Island had a few people on its development team that would soon be seen as luminaries in the industry. One notable name that worked on the game is ‘Tim Schafer’, who has since created and led Double Fine Productions (Psychonauts, The Cave, Brütal Legend).
 
 In The Secret of Monkey Island, you play as wannabe-pirate ‘Guybrush Threepwood’ as he tries his hardest to become a real swashbuckling corsair. [Guybrush travels around pirate-infested Mêlée Island speaking with pirate leaders](/reviews/monkeyisland/tavern.gif) and solving puzzles. There is no real danger in the game, it is just about exploration and critical thinking. Along the way however, Guybrush will get into sword fights, [run into ghosts](/reviews/monkeyisland/skeleton.gif), anger island natives, and more.
+
 <div class="reviewsplit"><img src="/reviews/monkeyisland/drip.gif"
 alt="Guybrush in a cave" style="border-radius: 20px;"/></div><br>
 
@@ -57,19 +55,3 @@ Turns out… Guybrush Threepwood is not really a name I would put on a list with
 <div class="reviewsplit"><img src="/reviews/monkeyisland/loom.jpg"
 alt="Ask me about Loom"/><div>
 <br><br>
-
-<div class="reviewsplit"><img src="/reviews/scores/scoresoutline.png"
-alt="Scores" /><div>
-
-<br>
-<br>
-
-<div class="scores" style=" width: 100%;">
-	 
-<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/3star.png"><p>"This game has no business making me grind for insults"</p></div>
-
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/3star.png"><p>"Hilarious game that does not respect the player"</p><p>"I wish the game had stats"</p></div>
-
-<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"It still rules"</p></div>
-
-</div>

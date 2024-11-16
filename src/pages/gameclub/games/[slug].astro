@@ -1,23 +1,31 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../../layouts/gameclublayout.astro";
+import ReviewHeader from "../../../components/reviews/review-header.astro";
+import ReviewScores from "../../../components/reviews/review-scores.astro";
 import { AudioPlayer } from "../../../components/audio-player";
 
 export async function getStaticPaths() {
   const allGames = await getCollection("games");
+  const allOst = await getCollection("ost");
 
   return allGames.map((game) => ({
     params: {
       slug: game.slug
     },
     props: {
-      game
+      game,
+      ost: allOst.find((ost) => ost.slug === game.slug)
     }
   }));
 }
 
-const { game } = Astro.props;
-const { Content } = await game.render();
+const { game, ost } = Astro.props;
+const gameRender = await game.render();
+const ostRender = await ost?.render();
+
+const GameContent = gameRender.Content;
+const OstContent = ostRender?.Content;
 ---
 
 <Layout title={game.data.title}>
@@ -30,8 +38,38 @@ const { Content } = await game.render();
             <div class="gameinfo">
               <div class="title">{game.data.title}</div>
               <h5>{game.data.description}</h5>
-              <p><Content /></p>
-              {game.data.tracks ? <AudioPlayer tracks={game.data.tracks} client:load /> : null}
+              <p>
+                {game.data.headerInfo && <ReviewHeader {...game.data.headerInfo} />}
+                <GameContent />
+                {game.data.scores && 
+                  <div class="reviewsplit">
+                    <img src="/reviews/scores/scoresoutline.png" alt="Scores" />
+                    <ReviewScores reviews={game.data.scores} />
+                  </div>
+                }
+                <br />
+                {ost && OstContent && (
+                  <div id="grad1"></div>
+                  <div id="ost" style="background-color: #6950ff; height: auto;" class="reviewsplit">
+                    <img src="/_ost2.png" alt="OST Logo" />
+                  </div>
+                )}
+                {ost && ost.data.tracks && OstContent && (
+                  <div id="audiobg">
+                    <div style="display: flex; justify-content: center;">
+                      <div id="audiowidth">
+                        <AudioPlayer tracks={ost?.data.tracks!} client:load />
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {ost && OstContent && (
+                  <div id="osttext">
+                    <OstContent />
+                  </div>
+                  <div id="grad2"></div>
+                )}
+              </p>
             </div>
           </div>
         </div>
