@@ -1,0 +1,29 @@
+---
+export interface Props {
+  writtenBy: string;
+  publishedDate: string;
+  suggestedBy: string;
+}
+
+const { writtenBy, publishedDate, suggestedBy } = Astro.props;
+---
+
+<hr />
+<div class="reviewinfo">
+  <div style="">
+    <span>Review Written by</span>
+    <div class="reviewimg">
+      <img src={`/reviews/review${writtenBy.toLowerCase()}.png`} alt={writtenBy} />
+    </div>
+    <br />
+    <sub>date published: {publishedDate}</sub>
+  </div>
+  <div style="">
+    <span>Game Suggested By</span>
+    <div class="reviewimg">
+      <img src={`/reviews/review${suggestedBy.toLowerCase()}.png`} alt={suggestedBy} />
+    </div>
+    <br />
+  </div>
+</div>
+<hr />

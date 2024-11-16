@@ -6,24 +6,14 @@ imageUrl: /card1.jpg
 description: A wild west arcade-style shooter for the Super Nintendo developed by Natsume
 tags: ["Shooter", "Western", "Super Nintendo"]
 graphic: /gameclub.jpg
+headerInfo: { writtenBy: "Justin", publishedDate: "8.15.23", suggestedBy: "Patrick" }
+scores:
+  [
+    { reviewerSrc: "/reviews/reviewjustin.png", score: 4, taglines: ["remove the peashooter"] },
+    { reviewerSrc: "/reviews/reviewcullen.png", score: 2, taglines: ["more like Wild NOT-FUNs"] },
+    { reviewerSrc: "/reviews/reviewpatrick.png", score: 4, taglines: ["Gimme more schmups"] }
+  ]
 sortIndex: 1
----
-
----
-
-<div class="reviewinfo">
-    
-<div style=""><span>Review Written by</span>
-<div class="reviewimg"><img src="/reviews/reviewjustin.png"
-alt="Justin"/> </div><br>
-<sub>date published: 8.15.23</sub></div>
-
-<div style=""><span>Game Suggested By</span>
-<div class="reviewimg"><img src="/reviews/reviewpatrick.png"
-alt="Patrick"/> </div><br></div>
-
-</div>
-
 ---
 
 I am standing inside a cube-shaped building with an old-western facade in the middle of an amusement park. Around my neck is a red paisley bandana and in my hand rests a rifle with a plastic orange tip. I am age 8 and my family has decided to take a break from all of the fun and excitement of Cedar Point to have old-timey, wild west-style portraits shot of my sister and I. As the photographer lines up one of their (many) shots, my 8 year-old self dissociates from reality and begins dreaming about what life might have been like back in the days of the Wild West — Saloons and shootouts, broncos and bushwhackers, saddlebags and spurs. Whatever life really WAS like back then, I knew for sure it was NOT like
@@ -75,48 +65,3 @@ alt="Concept art of Clint & Annie" /><div>
 
 <br>
 <br>
-
-<div class="reviewsplit"><img src="/reviews/scores/scoresoutline.png"
-alt="Scores" /><div>
-
-<br>
-<br>
-
-<div class="scores" style=" width: 100%;">
-     
-<div class="stars"><img src="/reviews/reviewjustin.png" style="margin-left: 26%;"><img src="/reviews/scores/4star.png"><p>"remove the peashooter"</p></div>
-
-<div class="cstars"><img src="/reviews/reviewcullen.png" style="margin-left: 26%;"><img src="/reviews/scores/2star.png"><p>"not for me"</p></div>
-
-<div class="pstars"><img src="/reviews/reviewpatrick.png" style="margin-left: 24%;"><img src="/reviews/scores/4star.png"><p>"Gimme more schmups"</p></div>
-
-</div>
-</div>
-</div>
-
-
-
-<div id="grad1" style=""></div>
-
-<div
-  id="ost"
-  style="background-color: #6950ff; height: auto;"
-  class="reviewsplit"
->
-  <img src="/_ost2.png" alt="OST Logo" />
-</div>
-
-<div id="audiobg" style="">
-  <div style="display: flex; justify-content: center;">
-    <div id="audiowidth" style="">
-      <AudioPlayer tracks={tracks} client:load />
-    </div>
-  </div>
-</div>
-
-<div id="osttext" style="">
-  <p><p>Taking a deep breath after the energy surge that was listening to the Wild Guns OST I can confidently say that was a list of almost nonstop bangers from top to bottom with just one or two donkeys I had to drag along with the rest of the pack. I really appreciate the effort on the composer's part in blending these classic western modes, runs and standards into a high octane action blowout and this remains consistent until near the end in what appears to be the final fight where the western theme is almost entirely dropped in favor of a more standard boss fight soundtrack. Do not let the energy fool you though as a couple of these tracks carry a surprising amount of emotion with them, the clear highlight here is Desolation Canyon where the progressions run a gauntlet of 'stoic cowboy rides alone through the desert' to 'uncertain adventure rises on the horizon' and finally 'a somber evening left with your thoughts'. <br> <br>Desolation Canyon might be the overall highlight for me but that isnt to distract from the bouncing bright ball of light that is Carson City. Listening to this while viewing the game cover feels like this track about sums up what I imagine a space western shooter would sound like. The lead synths really peak here and the percussion takes somewhat of a backseat which otherwise had a more prominent seat in the compositions and mix than I initially expected. Not all whips can wrangle though and I think the clear low points for me were the Ammunition Depot and both Final Fight tracks with the second Final Fight part being a step up from the previous. While still keeping the energy up and providing a fun moment here and there, I believe they stood out the least and felt the most like they could've been plucked out of any generic SNES shooter title. <br><br>Thankfully where Wild Guns may have started slipping on the plot musically near the end, it recovers in spectacular fashion with the Finale theme where we are treated to an 80's action movie credits crooner and that will always have me pumping a fist and letting my mullet hang low. A very fun, bumpy ride across an array of peaks and valleys but the highs were very high and what else could you expect traveling across the great western frontier. Shine on you crazy gun, you're a wild one.<br><br>-Brandon</p> </div>
-
-
-
- <div id="grad2" style=""></div>
