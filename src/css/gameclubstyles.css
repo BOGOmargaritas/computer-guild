@@ -621,7 +621,7 @@ div.ff7 * {
 @media only screen and (min-width: 1024px) {
   li {
     line-height: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
   }
 
   .title {
