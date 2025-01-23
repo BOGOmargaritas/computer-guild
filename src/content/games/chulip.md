@@ -6,12 +6,25 @@ imageUrl: /card13.jpg
 description: Love-de-Lic Alum's PS2 Freakshow
 tags: [Puzzle, Natsume, PS2]
 graphic: /gameclub13.jpg
-headerInfo: { writtenBy: "Justin", publishedDate: "10.1.24", suggestedBy: "Justin" }
+headerInfo:
+  { writtenBy: "Justin", publishedDate: "10.1.24", suggestedBy: "Justin" }
 scores:
   [
-    { reviewerSrc: "/reviews/reviewjustin.png", score: 3, taglines: ["Thought I was rich, turns out I'm broke"] },
-    { reviewerSrc: "/reviews/reviewcullen.png", score: 4, taglines: ["Pokemon for smoochin"] },
-    { reviewerSrc: "/reviews/reviewpatrick.png", score: 3, taglines: ["All kissing should have a manual this thorough"] }
+    {
+      reviewerSrc: "/reviews/reviewjustin.png",
+      score: 3,
+      taglines: ["Thought I was rich, turns out I'm broke"],
+    },
+    {
+      reviewerSrc: "/reviews/reviewcullen.png",
+      score: 4,
+      taglines: ["Pokemon for smoochin"],
+    },
+    {
+      reviewerSrc: "/reviews/reviewpatrick.png",
+      score: 3,
+      taglines: ["All kissing should have a manual this thorough"],
+    },
   ]
 sortIndex: 13
 ---
@@ -45,11 +58,11 @@ While the general gameplay loop, wackiness, and music really contributed to havi
 Chulip is a freak of a ps2 game that I would recommend to anyone interested in video game oddities. If you let yourself learn how the game is played, I think anyone would enjoy the loop and the comedy. Just keep in mind that it isn’t without its flaws and remember: you can’t just run around kissing whoever you want — you need to earn it.<br><br>
 
 <div class="reviewsplit"><img src="/reviews/chulip/conceptart.jpg"
-alt="Dazed Pikmin" /><div>
+alt="Concept art from Chulip" /><div>
 
 Well, as you can imagine, the rejection I experienced after my first kiss was pretty shocking. She told me she had recently gotten out of her last relationship and that she wasn’t ready to jump into anything serious. We remained friends through high school (thankfully, because we took many art classes together) but we haven’t caught up since graduation. Not sure where she is or how she is doing, but hoping she is well. And you know what? I hope you are too. Thanks for reading.
 <br><br>
 
 <div class="reviewsplit"><img src="/reviews/chulip/boxartcolor.png"
-alt="Dazed Pikmin" /><div>
+alt="Chulip's Japanese Box Art" /><div>
 <br><br>
