@@ -23,7 +23,7 @@ scores:
 sortIndex: 17
 ---
 
-For many of us, World of Warcraft wasn't just a game; it was a rite of passage. It was certainly the first subscription I ever convinced my parents to fund, a monumental step up from my days in Runescape. When a band class friend in 2006 described WoW as 'Runescape but better,' it sounded like the pinnacle of gaming. While adult-me might quibble with that exact comparison, teenage-me was sold. After a month of persistent negotiations and chore commitments, Azeroth became my digital home from its vanilla days through the Lich King's fall, a journey that wound down around my senior year in 2012-13. Subsequent attempts to rekindle that magic in modern WoW felt hollow; the world I knew was gone. Then came World of Warcraft Classic.
+For many of us, World of Warcraft wasn't just a game; it was a rite of passage. It was certainly the first subscription I ever convinced my parents to fund, a monumental step up from my days in Runescape. When a band class friend in 2006 described WoW as 'Runescape but better,' it sounded like the pinnacle of gaming. While adult-me might quibble with that exact comparison, child-me was sold. After a month of persistent negotiations and chore commitments, Azeroth became my digital home from its vanilla days through the Lich King's fall, a journey that wound down around my senior year in 2012-13. Subsequent attempts to rekindle that magic in modern WoW felt hollow; the world I knew was gone. Then came World of Warcraft Classic.
 
 <div class="reviewlogo"><img src="/reviews/wowclassic/logo.webp"
 alt="WoW Logo"/></div>
