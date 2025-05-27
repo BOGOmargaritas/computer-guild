@@ -1,7 +1,7 @@
 ---
 slug: wow-classic
 title: "World of Warcraft: Classic"
-subtitle: Round 7
+subtitle: Round 17
 imageUrl: /card17.jpg
 description: An MMO from a bygone era
 tags: [MMO, RPG, PC]
