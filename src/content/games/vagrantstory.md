@@ -1,6 +1,6 @@
 ---
 slug: vagrantstory
-title: "VagrantStory"
+title: "Vagrant Story"
 subtitle: Round 18
 imageUrl: /card18.jpg
 description: Squaresoft's crown jewel of complexity
