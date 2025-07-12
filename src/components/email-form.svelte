@@ -1,7 +1,7 @@
 <script lang="ts">
-    let formError = false;
-    let formMessage = "";
-    let submitting = false;
+    let formError: boolean = false;
+    let formMessage: string = "";
+    let submitting: boolean = false;
 
     const onSubmit = async (e: SubmitEvent) => {
         e.preventDefault();
@@ -80,7 +80,6 @@
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 1rem;
-        line-height: 2;
         line-height: 1.5rem;
         border-width: 1px;
         border-radius: var(--rounded-btn, 0.5rem);
