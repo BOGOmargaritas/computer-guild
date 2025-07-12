@@ -10,14 +10,14 @@
         "astro": "astro"
     },
     "dependencies": {
-        "@astrojs/mdx": "^3.1.9",
+        "@astrojs/mdx": "^4.3.0",
         "@astrojs/react": "^3.6.2",
-        "@astrojs/svelte": "^6.0.1",
+        "@astrojs/svelte": "^7.1.0",
         "@astrojs/vercel": "^8.2.1",
         "@types/react": "^18.3.12",
         "@types/react-dom": "^18.3.1",
         "aplayer-react": "^1.6.0",
-        "astro": "^4.16.13",
+        "astro": "^5.11.0",
         "astro-icon": "^1.1.2",
         "drizzle-orm": "^0.28.6",
         "postgres": "^3.3.5",
