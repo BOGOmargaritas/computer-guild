@@ -1,32 +1,35 @@
 {
-    "name": "guild-computer",
-    "type": "module",
-    "version": "0.0.1",
-    "scripts": {
-        "dev": "astro dev",
-        "start": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro"
-    },
-    "dependencies": {
-        "@astrojs/mdx": "^4.3.0",
-        "@astrojs/react": "^3.6.2",
-        "@astrojs/svelte": "^7.1.0",
-        "@astrojs/vercel": "^8.2.1",
-        "@types/react": "^18.3.12",
-        "@types/react-dom": "^18.3.1",
-        "aplayer-react": "^1.6.0",
-        "astro": "^5.11.0",
-        "astro-icon": "^1.1.2",
-        "drizzle-orm": "^0.28.6",
-        "postgres": "^3.3.5",
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1",
-        "svelte": "5.1.16"
-    },
-    "devDependencies": {
-        "drizzle-kit": "^0.31.4",
-        "prettier": "^3.3.3"
-    }
+  "name": "guild-computer",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/svelte": "^7.1.0",
+    "@astrojs/vercel": "^8.2.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "aplayer-react": "^1.6.0",
+    "astro": "^5.11.0",
+    "astro-icon": "^1.1.2",
+    "drizzle-orm": "^0.28.6",
+    "postgres": "^3.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "svelte": "5.1.16"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.4",
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": "20.14.0"
+  }
 }
