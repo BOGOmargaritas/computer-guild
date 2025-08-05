@@ -1,9 +1,6 @@
 ---
 import Layout from "../../layouts/gameclublayout.astro";
-import Card from "../../components/card.astro";
 import EmailForm from "../../components/email-form.svelte";
-const games = await Astro.glob("../../content/games/*.md");
-games.sort((a, b) => (b.frontmatter.subtitle && a.frontmatter.subtitle ? b.frontmatter.subtitle.localeCompare(a.frontmatter.subtitle) : null));
 ---
 
 <Layout title="contact">

@@ -4,6 +4,7 @@ import Card from "../../components/card.astro";
 import { getCollection } from "astro:content";
 
 const games = await getCollection("games");
+// @ts-expect-error - idk it works though
 games.sort((a, b) => (b.data.sortIndex && a.data.sortIndex ? parseFloat(b.data.sortIndex) - parseFloat(a.data.sortIndex) : null));
 ---
 

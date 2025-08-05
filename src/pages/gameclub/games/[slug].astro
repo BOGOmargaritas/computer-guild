@@ -5,8 +5,6 @@ import ReviewHeader from "../../../components/reviews/review-header.astro";
 import ReviewScores from "../../../components/reviews/review-scores.astro";
 import { AudioPlayer } from "../../../components/audio-player";
 
-export const prerender = true;
-
 export async function getStaticPaths() {
   const allGames = await getCollection("games");
   const allOst = await getCollection("ost");
