@@ -4,7 +4,7 @@ title: "Metroid Prime"
 subtitle: Round 20
 imageUrl: /card20.jpg
 description: Another solo mission for Samus, but this time it's in the third dimension.
-tags: [Management, Driving, Collectathon]
+tags: [Exploration, Shooter, Vibes]
 graphic: /gameclub20.jpg
 headerInfo:
   { writtenBy: "Justin", publishedDate: "09.19.25", suggestedBy: "Justin" }
