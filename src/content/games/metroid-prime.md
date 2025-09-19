@@ -60,7 +60,7 @@ alt="A door in the game waiting to be opened." /><div><br>
 
 The first couple months at the brewery were rough. The boss was a dick, my paycheck could’ve been mistaken for bird seed, and I didn’t know anyone except my coworkers and housemates. Coming home to a house where everyone hid in their rooms didn’t exactly brighten the mood, either. It got pretty bleak after a while.<br>
 
-Thankfully, things turned around after a couple of months. My partner and I started dating again, she graduated, and we got our first apartment together. Suddenly, life didn’t feel like a sanity check. I don’t regret taking that job or moving across the state, but let’s just say things are a lot better now. And hey—if I was struggling after a couple months of being kinda alone, I can only imagine what Samus Aran was going through on Tallon IV.<br><br>
+Thankfully, things turned around after a couple of months. My partner and I started dating again, she graduated, and we got our first apartment together. Suddenly, life didn’t feel like a sanity test. I don’t regret taking that job or moving across the state, but let’s just say things are a lot better now. And hey—if I was struggling after a couple months of being kinda alone, I can only imagine what Samus Aran was going through on Tallon IV.<br><br>
 
 <div class="reviewsplit"><img src="/reviews/metroidprime/thumbsup.gif"
 alt="Samus gives a thumbs up" /><div><br>
