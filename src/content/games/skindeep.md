@@ -57,6 +57,6 @@ My sister and I didn’t exactly win any “Sibling Harmony” awards growing up
 <br><br>
 
 <div class="reviewsplit" style="margin-bottom: -40px;"><img src="/reviews/skindeep/numbbunch.jpg"
-alt="Hijacking notification from the game's space pirates" style="margin-bottom: -20px;"/><div>
+alt="Hijacking notification from the game's space pirates" style="margin-bottom: -20px;"/><div><br>
 
 <br><br>
