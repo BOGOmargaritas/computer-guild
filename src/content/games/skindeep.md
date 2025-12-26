@@ -15,8 +15,16 @@ scores:
       score: 4,
       taglines: ["Got me wondering what my evil twin is doing"],
     },
-    { reviewerSrc: "/reviews/reviewcullen.png", score: 4, taglines: ["n/a"] },
-    { reviewerSrc: "/reviews/reviewpatrick.png", score: 5, taglines: ["n/a"] },
+    {
+      reviewerSrc: "/reviews/reviewcullen.png",
+      score: 4,
+      taglines: ["Send me to Wonky Space NOW"],
+    },
+    {
+      reviewerSrc: "/reviews/reviewpatrick.png",
+      score: 5,
+      taglines: ["Slapstick has never been so immersive"],
+    },
   ]
 sortIndex: 22
 ---
