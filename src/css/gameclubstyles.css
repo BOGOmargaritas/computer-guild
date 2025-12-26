@@ -201,10 +201,16 @@ sub {
 
 div.ff7 {
   border: solid 1px #424542;
-  box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7,
-    -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+  box-shadow:
+    1px 1px #e7dfe7,
+    -1px -1px #e7dfe7,
+    1px -1px #e7dfe7,
+    -1px 1px #e7dfe7,
+    0 -2px #9c9a9c,
+    -2px 0 #7b757b,
+    0 2px #424542;
   width: 80%;
-  paddint-right: 10px;
+  padding-right: 10px;
   padding-top: 105px;
   padding-bottom: 20px;
   margin-top: -100px;
@@ -233,7 +239,9 @@ div.ff7 {
 }
 
 div.ff7 * {
-  text-shadow: 2px 2px #212421, 1px 1px #212021;
+  text-shadow:
+    2px 2px #212421,
+    1px 1px #212021;
   margin: 5px 0;
 }
 
@@ -253,7 +261,9 @@ div.ff7 * {
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 .projcard:hover {
   box-shadow: 0 34px 32px -33px rgba(0, 0, 0, 0.18);
