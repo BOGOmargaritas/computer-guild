@@ -15,8 +15,8 @@ scores:
       score: 4,
       taglines: ["Got me wondering what my evil twin is doing"],
     },
-    { reviewerSrc: "/reviews/reviewcullen.png", score: 4, taglines: [""] },
-    { reviewerSrc: "/reviews/reviewpatrick.png", score: 5, taglines: [""] },
+    { reviewerSrc: "/reviews/reviewcullen.png", score: 4, taglines: ["n/a"] },
+    { reviewerSrc: "/reviews/reviewpatrick.png", score: 5, taglines: ["n/a"] },
   ]
 sortIndex: 22
 ---
