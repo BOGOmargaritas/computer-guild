@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "20": "^3.1.9",
     "@astrojs/mdx": "^4.3.3",
     "@astrojs/react": "^4.3.0",
     "@astrojs/svelte": "^7.1.0",
